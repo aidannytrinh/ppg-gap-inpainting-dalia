@@ -1,0 +1,20 @@
+# Dữ liệu gốc và cache (tải về / tạo lại bằng tao_cache.py)
+data/
+dalia_cache/
+
+# Kết quả nặng, sinh lại bằng evaluate.py / experiments.py e1
+G6/results/*.npz
+G6/results/*_theo_cuaso.csv
+G6/results/truoc_bo_sung_e2/
+
+# Python
+__pycache__/
+*.pyc
+
+# Sao lưu, tệp tạm, tệp riêng
+*.bak
+*.err
+*.tmp
+~$*
+G6/figs/trang_den/
+G6/figs/truoc_bo_sung_e2/

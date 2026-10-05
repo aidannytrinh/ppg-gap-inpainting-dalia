@@ -1,0 +1,1572 @@
+{
+  "ghi_chu": "Cai tien ngoai yeu cau de cuong. Mo hinh va bo doc HR da khoa, khong huan luyen lai. a=352, 384 nam ngoai vung huan luyen 64..320.",
+  "tap": {
+    "val": {
+      "64": {
+        "vi_tri": {
+          "a": 64,
+          "b": 191,
+          "cho_sau_doan_mat_giay": 5.0,
+          "cho_tu_luc_mat_giay": 7.0,
+          "trong_vung_huan_luyen": true
+        },
+        "so_cua_so": 8475,
+        "tap_hop_le_chung": 8475,
+        "sai_so_nen": 10.913,
+        "phuong_phap": {
+          "lap_chu_ky": {
+            "mae_macro": 1.0292,
+            "rmse_macro": 1.2791,
+            "mae_hr_pres": 10.894,
+            "mae_hr_ecg": 15.743,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.5055,
+            "mae_theo_doi_tuong": {
+              "11": 1.019,
+              "12": 1.0393
+            }
+          },
+          "tuyen_tinh": {
+            "mae_macro": 1.0219,
+            "rmse_macro": 1.2716,
+            "mae_hr_pres": 15.362,
+            "mae_hr_ecg": 19.246,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 1.0277,
+              "12": 1.0161
+            }
+          },
+          "spline": {
+            "mae_macro": 2.1907,
+            "rmse_macro": 2.6465,
+            "mae_hr_pres": 15.302,
+            "mae_hr_ecg": 19.129,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 2.4383,
+              "12": 1.9431
+            }
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "mae_macro": 0.5615,
+            "rmse_macro": 0.7263,
+            "mae_hr_pres": 4.695,
+            "mae_hr_ecg": 10.839,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 0.5268,
+              "12": 0.5962
+            }
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "mae_macro": 0.5654,
+            "rmse_macro": 0.7308,
+            "mae_hr_pres": 4.545,
+            "mae_hr_ecg": 10.845,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 0.5299,
+              "12": 0.6008
+            }
+          }
+        },
+        "ghep_cap": {
+          "tuyen_tinh": {
+            "theo_doi_tuong": {
+              "11": 0.0087,
+              "12": -0.0232
+            },
+            "trung_binh": -0.0072,
+            "so_doi_tuong_tot_hon": 1,
+            "tong_doi_tuong": 2
+          },
+          "spline": {
+            "theo_doi_tuong": {
+              "11": 1.4193,
+              "12": 0.9038
+            },
+            "trung_binh": 1.1616,
+            "so_doi_tuong_tot_hon": 0,
+            "tong_doi_tuong": 2
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "theo_doi_tuong": {
+              "11": -0.4922,
+              "12": -0.4431
+            },
+            "trung_binh": -0.4677,
+            "so_doi_tuong_tot_hon": 2,
+            "tong_doi_tuong": 2
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "theo_doi_tuong": {
+              "11": -0.4891,
+              "12": -0.4385
+            },
+            "trung_binh": -0.4638,
+            "so_doi_tuong_tot_hon": 2,
+            "tong_doi_tuong": 2
+          }
+        }
+      },
+      "128": {
+        "vi_tri": {
+          "a": 128,
+          "b": 255,
+          "cho_sau_doan_mat_giay": 4.0,
+          "cho_tu_luc_mat_giay": 6.0,
+          "trong_vung_huan_luyen": true
+        },
+        "so_cua_so": 8475,
+        "tap_hop_le_chung": 8475,
+        "sai_so_nen": 10.913,
+        "phuong_phap": {
+          "lap_chu_ky": {
+            "mae_macro": 1.0093,
+            "rmse_macro": 1.2595,
+            "mae_hr_pres": 6.241,
+            "mae_hr_ecg": 12.837,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0245,
+            "mae_theo_doi_tuong": {
+              "11": 0.9898,
+              "12": 1.0289
+            }
+          },
+          "tuyen_tinh": {
+            "mae_macro": 1.0071,
+            "rmse_macro": 1.2548,
+            "mae_hr_pres": 15.333,
+            "mae_hr_ecg": 19.176,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 1.02,
+              "12": 0.9942
+            }
+          },
+          "spline": {
+            "mae_macro": 2.166,
+            "rmse_macro": 2.6236,
+            "mae_hr_pres": 15.412,
+            "mae_hr_ecg": 19.167,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 2.3948,
+              "12": 1.9372
+            }
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "mae_macro": 0.5482,
+            "rmse_macro": 0.7111,
+            "mae_hr_pres": 4.448,
+            "mae_hr_ecg": 10.722,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 0.5149,
+              "12": 0.5815
+            }
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "mae_macro": 0.5488,
+            "rmse_macro": 0.7112,
+            "mae_hr_pres": 4.37,
+            "mae_hr_ecg": 10.717,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 0.5163,
+              "12": 0.5813
+            }
+          }
+        },
+        "ghep_cap": {
+          "tuyen_tinh": {
+            "theo_doi_tuong": {
+              "11": 0.0302,
+              "12": -0.0347
+            },
+            "trung_binh": -0.0023,
+            "so_doi_tuong_tot_hon": 1,
+            "tong_doi_tuong": 2
+          },
+          "spline": {
+            "theo_doi_tuong": {
+              "11": 1.405,
+              "12": 0.9083
+            },
+            "trung_binh": 1.1566,
+            "so_doi_tuong_tot_hon": 0,
+            "tong_doi_tuong": 2
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "theo_doi_tuong": {
+              "11": -0.4749,
+              "12": -0.4474
+            },
+            "trung_binh": -0.4612,
+            "so_doi_tuong_tot_hon": 2,
+            "tong_doi_tuong": 2
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "theo_doi_tuong": {
+              "11": -0.4735,
+              "12": -0.4476
+            },
+            "trung_binh": -0.4606,
+            "so_doi_tuong_tot_hon": 2,
+            "tong_doi_tuong": 2
+          }
+        }
+      },
+      "192": {
+        "vi_tri": {
+          "a": 192,
+          "b": 319,
+          "cho_sau_doan_mat_giay": 3.0,
+          "cho_tu_luc_mat_giay": 5.0,
+          "trong_vung_huan_luyen": true
+        },
+        "so_cua_so": 8475,
+        "tap_hop_le_chung": 8475,
+        "sai_so_nen": 10.913,
+        "phuong_phap": {
+          "lap_chu_ky": {
+            "mae_macro": 0.9941,
+            "rmse_macro": 1.2408,
+            "mae_hr_pres": 6.126,
+            "mae_hr_ecg": 12.699,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 0.9766,
+              "12": 1.0116
+            }
+          },
+          "tuyen_tinh": {
+            "mae_macro": 1.0108,
+            "rmse_macro": 1.2582,
+            "mae_hr_pres": 15.366,
+            "mae_hr_ecg": 19.182,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 1.0197,
+              "12": 1.0019
+            }
+          },
+          "spline": {
+            "mae_macro": 2.1675,
+            "rmse_macro": 2.6193,
+            "mae_hr_pres": 15.468,
+            "mae_hr_ecg": 19.175,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 2.4208,
+              "12": 1.9142
+            }
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "mae_macro": 0.5406,
+            "rmse_macro": 0.7002,
+            "mae_hr_pres": 4.408,
+            "mae_hr_ecg": 10.665,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 0.5106,
+              "12": 0.5705
+            }
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "mae_macro": 0.542,
+            "rmse_macro": 0.7014,
+            "mae_hr_pres": 4.405,
+            "mae_hr_ecg": 10.698,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 0.5122,
+              "12": 0.5718
+            }
+          }
+        },
+        "ghep_cap": {
+          "tuyen_tinh": {
+            "theo_doi_tuong": {
+              "11": 0.0431,
+              "12": -0.0097
+            },
+            "trung_binh": 0.0167,
+            "so_doi_tuong_tot_hon": 1,
+            "tong_doi_tuong": 2
+          },
+          "spline": {
+            "theo_doi_tuong": {
+              "11": 1.4442,
+              "12": 0.9026
+            },
+            "trung_binh": 1.1734,
+            "so_doi_tuong_tot_hon": 0,
+            "tong_doi_tuong": 2
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "theo_doi_tuong": {
+              "11": -0.466,
+              "12": -0.4411
+            },
+            "trung_binh": -0.4536,
+            "so_doi_tuong_tot_hon": 2,
+            "tong_doi_tuong": 2
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "theo_doi_tuong": {
+              "11": -0.4644,
+              "12": -0.4398
+            },
+            "trung_binh": -0.4521,
+            "so_doi_tuong_tot_hon": 2,
+            "tong_doi_tuong": 2
+          }
+        }
+      },
+      "256": {
+        "vi_tri": {
+          "a": 256,
+          "b": 383,
+          "cho_sau_doan_mat_giay": 2.0,
+          "cho_tu_luc_mat_giay": 4.0,
+          "trong_vung_huan_luyen": true
+        },
+        "so_cua_so": 8475,
+        "tap_hop_le_chung": 8475,
+        "sai_so_nen": 10.913,
+        "phuong_phap": {
+          "lap_chu_ky": {
+            "mae_macro": 0.9943,
+            "rmse_macro": 1.2427,
+            "mae_hr_pres": 6.008,
+            "mae_hr_ecg": 12.754,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 0.974,
+              "12": 1.0145
+            }
+          },
+          "tuyen_tinh": {
+            "mae_macro": 1.0045,
+            "rmse_macro": 1.2517,
+            "mae_hr_pres": 15.272,
+            "mae_hr_ecg": 19.18,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 1.0171,
+              "12": 0.9919
+            }
+          },
+          "spline": {
+            "mae_macro": 2.1552,
+            "rmse_macro": 2.6108,
+            "mae_hr_pres": 15.38,
+            "mae_hr_ecg": 19.148,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 2.3813,
+              "12": 1.9291
+            }
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "mae_macro": 0.5475,
+            "rmse_macro": 0.7102,
+            "mae_hr_pres": 4.4,
+            "mae_hr_ecg": 10.701,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 0.5142,
+              "12": 0.5808
+            }
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "mae_macro": 0.5466,
+            "rmse_macro": 0.7085,
+            "mae_hr_pres": 4.365,
+            "mae_hr_ecg": 10.674,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 0.5143,
+              "12": 0.5789
+            }
+          }
+        },
+        "ghep_cap": {
+          "tuyen_tinh": {
+            "theo_doi_tuong": {
+              "11": 0.0431,
+              "12": -0.0226
+            },
+            "trung_binh": 0.0103,
+            "so_doi_tuong_tot_hon": 1,
+            "tong_doi_tuong": 2
+          },
+          "spline": {
+            "theo_doi_tuong": {
+              "11": 1.4073,
+              "12": 0.9146
+            },
+            "trung_binh": 1.1609,
+            "so_doi_tuong_tot_hon": 0,
+            "tong_doi_tuong": 2
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "theo_doi_tuong": {
+              "11": -0.4598,
+              "12": -0.4337
+            },
+            "trung_binh": -0.4467,
+            "so_doi_tuong_tot_hon": 2,
+            "tong_doi_tuong": 2
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "theo_doi_tuong": {
+              "11": -0.4597,
+              "12": -0.4356
+            },
+            "trung_binh": -0.4476,
+            "so_doi_tuong_tot_hon": 2,
+            "tong_doi_tuong": 2
+          }
+        }
+      },
+      "320": {
+        "vi_tri": {
+          "a": 320,
+          "b": 447,
+          "cho_sau_doan_mat_giay": 1.0,
+          "cho_tu_luc_mat_giay": 3.0,
+          "trong_vung_huan_luyen": true
+        },
+        "so_cua_so": 8475,
+        "tap_hop_le_chung": 8475,
+        "sai_so_nen": 10.913,
+        "phuong_phap": {
+          "lap_chu_ky": {
+            "mae_macro": 0.9956,
+            "rmse_macro": 1.243,
+            "mae_hr_pres": 5.988,
+            "mae_hr_ecg": 12.581,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 0.9794,
+              "12": 1.0118
+            }
+          },
+          "tuyen_tinh": {
+            "mae_macro": 1.0196,
+            "rmse_macro": 1.2692,
+            "mae_hr_pres": 14.993,
+            "mae_hr_ecg": 18.912,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 1.0281,
+              "12": 1.0111
+            }
+          },
+          "spline": {
+            "mae_macro": 2.1834,
+            "rmse_macro": 2.6389,
+            "mae_hr_pres": 15.261,
+            "mae_hr_ecg": 19.058,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 2.4364,
+              "12": 1.9304
+            }
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "mae_macro": 0.5587,
+            "rmse_macro": 0.7224,
+            "mae_hr_pres": 4.622,
+            "mae_hr_ecg": 10.834,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 0.5298,
+              "12": 0.5876
+            }
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "mae_macro": 0.5535,
+            "rmse_macro": 0.7158,
+            "mae_hr_pres": 4.59,
+            "mae_hr_ecg": 10.764,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 0.5252,
+              "12": 0.5817
+            }
+          }
+        },
+        "ghep_cap": {
+          "tuyen_tinh": {
+            "theo_doi_tuong": {
+              "11": 0.0487,
+              "12": -0.0007
+            },
+            "trung_binh": 0.024,
+            "so_doi_tuong_tot_hon": 1,
+            "tong_doi_tuong": 2
+          },
+          "spline": {
+            "theo_doi_tuong": {
+              "11": 1.457,
+              "12": 0.9186
+            },
+            "trung_binh": 1.1878,
+            "so_doi_tuong_tot_hon": 0,
+            "tong_doi_tuong": 2
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "theo_doi_tuong": {
+              "11": -0.4496,
+              "12": -0.4242
+            },
+            "trung_binh": -0.4369,
+            "so_doi_tuong_tot_hon": 2,
+            "tong_doi_tuong": 2
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "theo_doi_tuong": {
+              "11": -0.4542,
+              "12": -0.4301
+            },
+            "trung_binh": -0.4421,
+            "so_doi_tuong_tot_hon": 2,
+            "tong_doi_tuong": 2
+          }
+        }
+      },
+      "352": {
+        "vi_tri": {
+          "a": 352,
+          "b": 479,
+          "cho_sau_doan_mat_giay": 0.5,
+          "cho_tu_luc_mat_giay": 2.5,
+          "trong_vung_huan_luyen": false
+        },
+        "so_cua_so": 8475,
+        "tap_hop_le_chung": 8475,
+        "sai_so_nen": 10.913,
+        "phuong_phap": {
+          "lap_chu_ky": {
+            "mae_macro": 1.0071,
+            "rmse_macro": 1.2587,
+            "mae_hr_pres": 5.936,
+            "mae_hr_ecg": 12.566,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 0.9885,
+              "12": 1.0256
+            }
+          },
+          "tuyen_tinh": {
+            "mae_macro": 1.0182,
+            "rmse_macro": 1.2682,
+            "mae_hr_pres": 14.877,
+            "mae_hr_ecg": 18.912,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 1.029,
+              "12": 1.0074
+            }
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "mae_macro": 0.5968,
+            "rmse_macro": 0.7725,
+            "mae_hr_pres": 5.09,
+            "mae_hr_ecg": 11.206,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 0.5671,
+              "12": 0.6265
+            }
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "mae_macro": 0.5762,
+            "rmse_macro": 0.7462,
+            "mae_hr_pres": 4.837,
+            "mae_hr_ecg": 10.841,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 0.544,
+              "12": 0.6084
+            }
+          }
+        },
+        "ghep_cap": {
+          "tuyen_tinh": {
+            "theo_doi_tuong": {
+              "11": 0.0405,
+              "12": -0.0182
+            },
+            "trung_binh": 0.0112,
+            "so_doi_tuong_tot_hon": 1,
+            "tong_doi_tuong": 2
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "theo_doi_tuong": {
+              "11": -0.4214,
+              "12": -0.3991
+            },
+            "trung_binh": -0.4103,
+            "so_doi_tuong_tot_hon": 2,
+            "tong_doi_tuong": 2
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "theo_doi_tuong": {
+              "11": -0.4445,
+              "12": -0.4172
+            },
+            "trung_binh": -0.4309,
+            "so_doi_tuong_tot_hon": 2,
+            "tong_doi_tuong": 2
+          }
+        }
+      },
+      "384": {
+        "vi_tri": {
+          "a": 384,
+          "b": 511,
+          "cho_sau_doan_mat_giay": 0.0,
+          "cho_tu_luc_mat_giay": 2.0,
+          "trong_vung_huan_luyen": false
+        },
+        "so_cua_so": 8475,
+        "tap_hop_le_chung": 8475,
+        "sai_so_nen": 10.913,
+        "phuong_phap": {
+          "lap_chu_ky": {
+            "mae_macro": 1.0484,
+            "rmse_macro": 1.3045,
+            "mae_hr_pres": 5.531,
+            "mae_hr_ecg": 12.13,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 1.0229,
+              "12": 1.0739
+            }
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "mae_macro": 0.7011,
+            "rmse_macro": 0.9007,
+            "mae_hr_pres": 5.017,
+            "mae_hr_ecg": 10.991,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 0.6798,
+              "12": 0.7225
+            }
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "mae_macro": 0.682,
+            "rmse_macro": 0.8768,
+            "mae_hr_pres": 3.771,
+            "mae_hr_ecg": 10.693,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "11": 0.6592,
+              "12": 0.7048
+            }
+          }
+        },
+        "ghep_cap": {
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "theo_doi_tuong": {
+              "11": -0.3431,
+              "12": -0.3514
+            },
+            "trung_binh": -0.3473,
+            "so_doi_tuong_tot_hon": 2,
+            "tong_doi_tuong": 2
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "theo_doi_tuong": {
+              "11": -0.3637,
+              "12": -0.3691
+            },
+            "trung_binh": -0.3664,
+            "so_doi_tuong_tot_hon": 2,
+            "tong_doi_tuong": 2
+          }
+        }
+      }
+    },
+    "test": {
+      "64": {
+        "vi_tri": {
+          "a": 64,
+          "b": 191,
+          "cho_sau_doan_mat_giay": 5.0,
+          "cho_tu_luc_mat_giay": 7.0,
+          "trong_vung_huan_luyen": true
+        },
+        "so_cua_so": 13007,
+        "tap_hop_le_chung": 13007,
+        "sai_so_nen": 6.988,
+        "phuong_phap": {
+          "lap_chu_ky": {
+            "mae_macro": 1.0324,
+            "rmse_macro": 1.2782,
+            "mae_hr_pres": 10.935,
+            "mae_hr_ecg": 13.314,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.5337,
+            "mae_theo_doi_tuong": {
+              "13": 1.0179,
+              "14": 1.0249,
+              "15": 1.0543
+            }
+          },
+          "tuyen_tinh": {
+            "mae_macro": 1.0185,
+            "rmse_macro": 1.2623,
+            "mae_hr_pres": 15.879,
+            "mae_hr_ecg": 16.845,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 1.0235,
+              "14": 1.0195,
+              "15": 1.0126
+            }
+          },
+          "spline": {
+            "mae_macro": 2.2336,
+            "rmse_macro": 2.6907,
+            "mae_hr_pres": 15.766,
+            "mae_hr_ecg": 16.741,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 2.3575,
+              "14": 2.2312,
+              "15": 2.1121
+            }
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "mae_macro": 0.5268,
+            "rmse_macro": 0.6824,
+            "mae_hr_pres": 3.168,
+            "mae_hr_ecg": 6.741,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.5054,
+              "14": 0.5196,
+              "15": 0.5555
+            }
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "mae_macro": 0.5288,
+            "rmse_macro": 0.6848,
+            "mae_hr_pres": 3.086,
+            "mae_hr_ecg": 6.72,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.5069,
+              "14": 0.5222,
+              "15": 0.5572
+            }
+          }
+        },
+        "ghep_cap": {
+          "tuyen_tinh": {
+            "theo_doi_tuong": {
+              "13": 0.0056,
+              "14": -0.0054,
+              "15": -0.0417
+            },
+            "trung_binh": -0.0138,
+            "so_doi_tuong_tot_hon": 2,
+            "tong_doi_tuong": 3
+          },
+          "spline": {
+            "theo_doi_tuong": {
+              "13": 1.3396,
+              "14": 1.2063,
+              "15": 1.0578
+            },
+            "trung_binh": 1.2012,
+            "so_doi_tuong_tot_hon": 0,
+            "tong_doi_tuong": 3
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "theo_doi_tuong": {
+              "13": -0.5125,
+              "14": -0.5053,
+              "15": -0.4988
+            },
+            "trung_binh": -0.5055,
+            "so_doi_tuong_tot_hon": 3,
+            "tong_doi_tuong": 3
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "theo_doi_tuong": {
+              "13": -0.511,
+              "14": -0.5027,
+              "15": -0.4971
+            },
+            "trung_binh": -0.5036,
+            "so_doi_tuong_tot_hon": 3,
+            "tong_doi_tuong": 3
+          }
+        }
+      },
+      "128": {
+        "vi_tri": {
+          "a": 128,
+          "b": 255,
+          "cho_sau_doan_mat_giay": 4.0,
+          "cho_tu_luc_mat_giay": 6.0,
+          "trong_vung_huan_luyen": true
+        },
+        "so_cua_so": 13007,
+        "tap_hop_le_chung": 13007,
+        "sai_so_nen": 6.988,
+        "phuong_phap": {
+          "lap_chu_ky": {
+            "mae_macro": 0.9861,
+            "rmse_macro": 1.2287,
+            "mae_hr_pres": 5.297,
+            "mae_hr_ecg": 9.073,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0165,
+            "mae_theo_doi_tuong": {
+              "13": 0.9495,
+              "14": 0.9917,
+              "15": 1.0171
+            }
+          },
+          "tuyen_tinh": {
+            "mae_macro": 1.0027,
+            "rmse_macro": 1.2446,
+            "mae_hr_pres": 15.855,
+            "mae_hr_ecg": 16.822,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 1.0073,
+              "14": 1.0043,
+              "15": 0.9966
+            }
+          },
+          "spline": {
+            "mae_macro": 2.2588,
+            "rmse_macro": 2.721,
+            "mae_hr_pres": 15.861,
+            "mae_hr_ecg": 16.811,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 2.3875,
+              "14": 2.2739,
+              "15": 2.115
+            }
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "mae_macro": 0.5102,
+            "rmse_macro": 0.6622,
+            "mae_hr_pres": 3.03,
+            "mae_hr_ecg": 6.652,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.4915,
+              "14": 0.5046,
+              "15": 0.5345
+            }
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "mae_macro": 0.5115,
+            "rmse_macro": 0.6633,
+            "mae_hr_pres": 2.974,
+            "mae_hr_ecg": 6.628,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.4938,
+              "14": 0.5062,
+              "15": 0.5343
+            }
+          }
+        },
+        "ghep_cap": {
+          "tuyen_tinh": {
+            "theo_doi_tuong": {
+              "13": 0.0578,
+              "14": 0.0126,
+              "15": -0.0205
+            },
+            "trung_binh": 0.0166,
+            "so_doi_tuong_tot_hon": 1,
+            "tong_doi_tuong": 3
+          },
+          "spline": {
+            "theo_doi_tuong": {
+              "13": 1.438,
+              "14": 1.2822,
+              "15": 1.0979
+            },
+            "trung_binh": 1.2727,
+            "so_doi_tuong_tot_hon": 0,
+            "tong_doi_tuong": 3
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "theo_doi_tuong": {
+              "13": -0.458,
+              "14": -0.4871,
+              "15": -0.4826
+            },
+            "trung_binh": -0.4759,
+            "so_doi_tuong_tot_hon": 3,
+            "tong_doi_tuong": 3
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "theo_doi_tuong": {
+              "13": -0.4557,
+              "14": -0.4855,
+              "15": -0.4828
+            },
+            "trung_binh": -0.4747,
+            "so_doi_tuong_tot_hon": 3,
+            "tong_doi_tuong": 3
+          }
+        }
+      },
+      "192": {
+        "vi_tri": {
+          "a": 192,
+          "b": 319,
+          "cho_sau_doan_mat_giay": 3.0,
+          "cho_tu_luc_mat_giay": 5.0,
+          "trong_vung_huan_luyen": true
+        },
+        "so_cua_so": 13007,
+        "tap_hop_le_chung": 13007,
+        "sai_so_nen": 6.988,
+        "phuong_phap": {
+          "lap_chu_ky": {
+            "mae_macro": 0.9712,
+            "rmse_macro": 1.2118,
+            "mae_hr_pres": 5.146,
+            "mae_hr_ecg": 8.994,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.9329,
+              "14": 0.9801,
+              "15": 1.0006
+            }
+          },
+          "tuyen_tinh": {
+            "mae_macro": 1.0081,
+            "rmse_macro": 1.2493,
+            "mae_hr_pres": 15.865,
+            "mae_hr_ecg": 16.812,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 1.0161,
+              "14": 1.008,
+              "15": 1.0002
+            }
+          },
+          "spline": {
+            "mae_macro": 2.2144,
+            "rmse_macro": 2.6672,
+            "mae_hr_pres": 15.896,
+            "mae_hr_ecg": 16.836,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 2.3455,
+              "14": 2.2112,
+              "15": 2.0866
+            }
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "mae_macro": 0.5079,
+            "rmse_macro": 0.6588,
+            "mae_hr_pres": 2.99,
+            "mae_hr_ecg": 6.607,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.4891,
+              "14": 0.4997,
+              "15": 0.535
+            }
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "mae_macro": 0.5088,
+            "rmse_macro": 0.6596,
+            "mae_hr_pres": 2.963,
+            "mae_hr_ecg": 6.575,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.4905,
+              "14": 0.5018,
+              "15": 0.534
+            }
+          }
+        },
+        "ghep_cap": {
+          "tuyen_tinh": {
+            "theo_doi_tuong": {
+              "13": 0.0832,
+              "14": 0.0279,
+              "15": -0.0004
+            },
+            "trung_binh": 0.0369,
+            "so_doi_tuong_tot_hon": 1,
+            "tong_doi_tuong": 3
+          },
+          "spline": {
+            "theo_doi_tuong": {
+              "13": 1.4126,
+              "14": 1.2311,
+              "15": 1.086
+            },
+            "trung_binh": 1.2432,
+            "so_doi_tuong_tot_hon": 0,
+            "tong_doi_tuong": 3
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "theo_doi_tuong": {
+              "13": -0.4438,
+              "14": -0.4804,
+              "15": -0.4656
+            },
+            "trung_binh": -0.4633,
+            "so_doi_tuong_tot_hon": 3,
+            "tong_doi_tuong": 3
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "theo_doi_tuong": {
+              "13": -0.4424,
+              "14": -0.4783,
+              "15": -0.4666
+            },
+            "trung_binh": -0.4624,
+            "so_doi_tuong_tot_hon": 3,
+            "tong_doi_tuong": 3
+          }
+        }
+      },
+      "256": {
+        "vi_tri": {
+          "a": 256,
+          "b": 383,
+          "cho_sau_doan_mat_giay": 2.0,
+          "cho_tu_luc_mat_giay": 4.0,
+          "trong_vung_huan_luyen": true
+        },
+        "so_cua_so": 13007,
+        "tap_hop_le_chung": 13007,
+        "sai_so_nen": 6.988,
+        "phuong_phap": {
+          "lap_chu_ky": {
+            "mae_macro": 0.9722,
+            "rmse_macro": 1.2137,
+            "mae_hr_pres": 5.136,
+            "mae_hr_ecg": 8.97,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.9333,
+              "14": 0.9824,
+              "15": 1.001
+            }
+          },
+          "tuyen_tinh": {
+            "mae_macro": 1.0028,
+            "rmse_macro": 1.245,
+            "mae_hr_pres": 15.809,
+            "mae_hr_ecg": 16.765,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 1.0073,
+              "14": 1.0044,
+              "15": 0.9966
+            }
+          },
+          "spline": {
+            "mae_macro": 2.2546,
+            "rmse_macro": 2.716,
+            "mae_hr_pres": 15.891,
+            "mae_hr_ecg": 16.839,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 2.3799,
+              "14": 2.2707,
+              "15": 2.1131
+            }
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "mae_macro": 0.5121,
+            "rmse_macro": 0.6645,
+            "mae_hr_pres": 3.014,
+            "mae_hr_ecg": 6.632,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.4936,
+              "14": 0.5052,
+              "15": 0.5375
+            }
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "mae_macro": 0.5114,
+            "rmse_macro": 0.6635,
+            "mae_hr_pres": 2.99,
+            "mae_hr_ecg": 6.602,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.4936,
+              "14": 0.5049,
+              "15": 0.5357
+            }
+          }
+        },
+        "ghep_cap": {
+          "tuyen_tinh": {
+            "theo_doi_tuong": {
+              "13": 0.074,
+              "14": 0.022,
+              "15": -0.0044
+            },
+            "trung_binh": 0.0305,
+            "so_doi_tuong_tot_hon": 1,
+            "tong_doi_tuong": 3
+          },
+          "spline": {
+            "theo_doi_tuong": {
+              "13": 1.4466,
+              "14": 1.2883,
+              "15": 1.1121
+            },
+            "trung_binh": 1.2823,
+            "so_doi_tuong_tot_hon": 0,
+            "tong_doi_tuong": 3
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "theo_doi_tuong": {
+              "13": -0.4397,
+              "14": -0.4772,
+              "15": -0.4635
+            },
+            "trung_binh": -0.4601,
+            "so_doi_tuong_tot_hon": 3,
+            "tong_doi_tuong": 3
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "theo_doi_tuong": {
+              "13": -0.4397,
+              "14": -0.4775,
+              "15": -0.4653
+            },
+            "trung_binh": -0.4608,
+            "so_doi_tuong_tot_hon": 3,
+            "tong_doi_tuong": 3
+          }
+        }
+      },
+      "320": {
+        "vi_tri": {
+          "a": 320,
+          "b": 447,
+          "cho_sau_doan_mat_giay": 1.0,
+          "cho_tu_luc_mat_giay": 3.0,
+          "trong_vung_huan_luyen": true
+        },
+        "so_cua_so": 13007,
+        "tap_hop_le_chung": 13007,
+        "sai_so_nen": 6.988,
+        "phuong_phap": {
+          "lap_chu_ky": {
+            "mae_macro": 0.9769,
+            "rmse_macro": 1.2193,
+            "mae_hr_pres": 5.146,
+            "mae_hr_ecg": 8.981,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.9374,
+              "14": 0.9866,
+              "15": 1.0067
+            }
+          },
+          "tuyen_tinh": {
+            "mae_macro": 1.0178,
+            "rmse_macro": 1.2617,
+            "mae_hr_pres": 15.425,
+            "mae_hr_ecg": 16.45,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 1.025,
+              "14": 1.0177,
+              "15": 1.0107
+            }
+          },
+          "spline": {
+            "mae_macro": 2.2391,
+            "rmse_macro": 2.6967,
+            "mae_hr_pres": 15.734,
+            "mae_hr_ecg": 16.718,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 2.3706,
+              "14": 2.234,
+              "15": 2.1125
+            }
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "mae_macro": 0.5297,
+            "rmse_macro": 0.6862,
+            "mae_hr_pres": 3.141,
+            "mae_hr_ecg": 6.777,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.5104,
+              "14": 0.5237,
+              "15": 0.5552
+            }
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "mae_macro": 0.5256,
+            "rmse_macro": 0.6806,
+            "mae_hr_pres": 3.152,
+            "mae_hr_ecg": 6.754,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.5055,
+              "14": 0.5206,
+              "15": 0.5508
+            }
+          }
+        },
+        "ghep_cap": {
+          "tuyen_tinh": {
+            "theo_doi_tuong": {
+              "13": 0.0876,
+              "14": 0.0311,
+              "15": 0.004
+            },
+            "trung_binh": 0.0409,
+            "so_doi_tuong_tot_hon": 0,
+            "tong_doi_tuong": 3
+          },
+          "spline": {
+            "theo_doi_tuong": {
+              "13": 1.4332,
+              "14": 1.2474,
+              "15": 1.1058
+            },
+            "trung_binh": 1.2621,
+            "so_doi_tuong_tot_hon": 0,
+            "tong_doi_tuong": 3
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "theo_doi_tuong": {
+              "13": -0.427,
+              "14": -0.4629,
+              "15": -0.4515
+            },
+            "trung_binh": -0.4471,
+            "so_doi_tuong_tot_hon": 3,
+            "tong_doi_tuong": 3
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "theo_doi_tuong": {
+              "13": -0.4319,
+              "14": -0.466,
+              "15": -0.4559
+            },
+            "trung_binh": -0.4513,
+            "so_doi_tuong_tot_hon": 3,
+            "tong_doi_tuong": 3
+          }
+        }
+      },
+      "352": {
+        "vi_tri": {
+          "a": 352,
+          "b": 479,
+          "cho_sau_doan_mat_giay": 0.5,
+          "cho_tu_luc_mat_giay": 2.5,
+          "trong_vung_huan_luyen": false
+        },
+        "so_cua_so": 13007,
+        "tap_hop_le_chung": 13007,
+        "sai_so_nen": 6.988,
+        "phuong_phap": {
+          "lap_chu_ky": {
+            "mae_macro": 0.9875,
+            "rmse_macro": 1.2337,
+            "mae_hr_pres": 5.162,
+            "mae_hr_ecg": 8.909,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.9433,
+              "14": 1.0026,
+              "15": 1.0167
+            }
+          },
+          "tuyen_tinh": {
+            "mae_macro": 1.0261,
+            "rmse_macro": 1.2719,
+            "mae_hr_pres": 15.28,
+            "mae_hr_ecg": 16.334,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 1.0373,
+              "14": 1.0216,
+              "15": 1.0193
+            }
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "mae_macro": 0.5655,
+            "rmse_macro": 0.7315,
+            "mae_hr_pres": 3.546,
+            "mae_hr_ecg": 7.073,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.5476,
+              "14": 0.5623,
+              "15": 0.5866
+            }
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "mae_macro": 0.5448,
+            "rmse_macro": 0.7062,
+            "mae_hr_pres": 3.379,
+            "mae_hr_ecg": 6.867,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.524,
+              "14": 0.5394,
+              "15": 0.571
+            }
+          }
+        },
+        "ghep_cap": {
+          "tuyen_tinh": {
+            "theo_doi_tuong": {
+              "13": 0.094,
+              "14": 0.019,
+              "15": 0.0026
+            },
+            "trung_binh": 0.0385,
+            "so_doi_tuong_tot_hon": 0,
+            "tong_doi_tuong": 3
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "theo_doi_tuong": {
+              "13": -0.3957,
+              "14": -0.4403,
+              "15": -0.4301
+            },
+            "trung_binh": -0.422,
+            "so_doi_tuong_tot_hon": 3,
+            "tong_doi_tuong": 3
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "theo_doi_tuong": {
+              "13": -0.4193,
+              "14": -0.4632,
+              "15": -0.4457
+            },
+            "trung_binh": -0.4427,
+            "so_doi_tuong_tot_hon": 3,
+            "tong_doi_tuong": 3
+          }
+        }
+      },
+      "384": {
+        "vi_tri": {
+          "a": 384,
+          "b": 511,
+          "cho_sau_doan_mat_giay": 0.0,
+          "cho_tu_luc_mat_giay": 2.0,
+          "trong_vung_huan_luyen": false
+        },
+        "so_cua_so": 13007,
+        "tap_hop_le_chung": 13007,
+        "sai_so_nen": 6.988,
+        "phuong_phap": {
+          "lap_chu_ky": {
+            "mae_macro": 1.0284,
+            "rmse_macro": 1.2783,
+            "mae_hr_pres": 4.756,
+            "mae_hr_ecg": 8.446,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.9754,
+              "14": 1.0383,
+              "15": 1.0714
+            }
+          },
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "mae_macro": 0.6838,
+            "rmse_macro": 0.8748,
+            "mae_hr_pres": 3.828,
+            "mae_hr_ecg": 7.128,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.6681,
+              "14": 0.6773,
+              "15": 0.7062
+            }
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "mae_macro": 0.6633,
+            "rmse_macro": 0.8505,
+            "mae_hr_pres": 3.039,
+            "mae_hr_ecg": 6.79,
+            "ty_le_doc_duoc_hr": 1.0,
+            "ty_le_du_phong": 0.0,
+            "mae_theo_doi_tuong": {
+              "13": 0.644,
+              "14": 0.6597,
+              "15": 0.6864
+            }
+          }
+        },
+        "ghep_cap": {
+          "mo_hinh_chinh[e4_lam0.5]": {
+            "theo_doi_tuong": {
+              "13": -0.3073,
+              "14": -0.361,
+              "15": -0.3652
+            },
+            "trung_binh": -0.3445,
+            "so_doi_tuong_tot_hon": 3,
+            "tong_doi_tuong": 3
+          },
+          "them[caitien_amax384_lam0.5]": {
+            "theo_doi_tuong": {
+              "13": -0.3314,
+              "14": -0.3786,
+              "15": -0.385
+            },
+            "trung_binh": -0.365,
+            "so_doi_tuong_tot_hon": 3,
+            "tong_doi_tuong": 3
+          }
+        }
+      }
+    }
+  },
+  "kiem_tra_trung_khao_sat_vi_tri": {
+    "so_so_sanh": 20,
+    "chenh_lon_nhat": 0.0
+  },
+  "khuyen_nghi": {
+    "moc_mae_val_3s": 0.5406,
+    "nguong_5pt": 0.5676,
+    "theo_vi_tri": {
+      "64": {
+        "cho_giay": 5.0,
+        "mo_hinh_tot_hon": "mo_hinh_chinh[e4_lam0.5]",
+        "mae_val": 0.5615,
+        "mae_val_lap_chu_ky": 1.0292,
+        "dat": true
+      },
+      "128": {
+        "cho_giay": 4.0,
+        "mo_hinh_tot_hon": "mo_hinh_chinh[e4_lam0.5]",
+        "mae_val": 0.5482,
+        "mae_val_lap_chu_ky": 1.0093,
+        "dat": true
+      },
+      "192": {
+        "cho_giay": 3.0,
+        "mo_hinh_tot_hon": "mo_hinh_chinh[e4_lam0.5]",
+        "mae_val": 0.5406,
+        "mae_val_lap_chu_ky": 0.9941,
+        "dat": true
+      },
+      "256": {
+        "cho_giay": 2.0,
+        "mo_hinh_tot_hon": "them[caitien_amax384_lam0.5]",
+        "mae_val": 0.5466,
+        "mae_val_lap_chu_ky": 0.9943,
+        "dat": true
+      },
+      "320": {
+        "cho_giay": 1.0,
+        "mo_hinh_tot_hon": "them[caitien_amax384_lam0.5]",
+        "mae_val": 0.5535,
+        "mae_val_lap_chu_ky": 0.9956,
+        "dat": true
+      },
+      "352": {
+        "cho_giay": 0.5,
+        "mo_hinh_tot_hon": "them[caitien_amax384_lam0.5]",
+        "mae_val": 0.5762,
+        "mae_val_lap_chu_ky": 1.0071,
+        "dat": false
+      },
+      "384": {
+        "cho_giay": 0.0,
+        "mo_hinh_tot_hon": "them[caitien_amax384_lam0.5]",
+        "mae_val": 0.682,
+        "mae_val_lap_chu_ky": 1.0484,
+        "dat": false
+      }
+    },
+    "a_khuyen_nghi": 320,
+    "cho_khuyen_nghi_giay": 1.0,
+    "mo_hinh_khuyen_nghi": "them[caitien_amax384_lam0.5]",
+    "a_khuyen_nghi_chi_mo_hinh_chinh": 320,
+    "cho_khuyen_nghi_chi_mo_hinh_chinh": 1.0
+  }
+}

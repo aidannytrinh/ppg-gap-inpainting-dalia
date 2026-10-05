@@ -1,0 +1,9 @@
+{
+  "thoi_diem_chot_quy_tac": "2026-10-04T10:57:56",
+  "ly_do": "Muc 4.4 de cuong (E2): 'Chon lambda rieng bang validation, tru ban lambda=0'. Luot E2 truoc chi thu {0; 0,5}, thu hep so voi luoi {0; 0,1; 0,5; 1} o muc 2.4 va E4. Bo sung 4 luot con thieu de hai ban boc tach duoc chon lambda tren du luoi nhu mo hinh chinh.",
+  "luot_bo_sung": ["e2a_nolstm_lam0.1", "e2a_nolstm_lam1", "e2c_acc_lam0.1", "e2c_acc_lam1"],
+  "quy_tac_chon": "Voi moi ban (bo Bi-LSTM, them ACC), chon lambda co MAE validation macro (S11, S12) nho nhat tren du 4 gia tri. Khong dung bat ky so lieu test nao de chon.",
+  "neu_trung_lua_chon_cu": "Giu nguyen ket qua test da co, chi bo sung bang E2 tren validation.",
+  "neu_khac_lua_chon_cu": "Danh gia lai ban duoc chon tren test bang dung chuong trinh E1, cap nhat cac bang/hinh lien quan va ghi ro trong bao cao la phan bo sung sau thoi diem khoa, chon chi bang validation. Mo hinh chinh, E4, E5 khong doi.",
+  "cau_hinh_huan_luyen": "Giong het cac luot E2 truoc: Adam 1e-3, batch 128, toi da 100 epoch, patience 10, ReduceLROnPlateau 0,5/5, seed 42, CPU may ca nhan."
+}

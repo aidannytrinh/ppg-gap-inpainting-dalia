@@ -1,0 +1,41 @@
+{
+  "doichuan_val": {
+    "so_cua_so": 8475,
+    "so_truong_hop": 0,
+    "theo_ly_do": {}
+  },
+  "e1_test": {
+    "so_cua_so": 13007,
+    "so_truong_hop": 0,
+    "theo_ly_do": {}
+  },
+  "e5_f1_test": {
+    "so_cua_so": 13069,
+    "so_truong_hop": 0,
+    "theo_ly_do": {}
+  },
+  "e5_f2_test": {
+    "so_cua_so": 11843,
+    "so_truong_hop": 1,
+    "theo_ly_do": {
+      "dung du phong: lap_chu_ky": 1
+    }
+  },
+  "e5_f3_test": {
+    "so_cua_so": 12982,
+    "so_truong_hop": 7,
+    "theo_ly_do": {
+      "dung du phong: lap_chu_ky": 7
+    }
+  },
+  "e5_f4_test": {
+    "so_cua_so": 13796,
+    "so_truong_hop": 0,
+    "theo_ly_do": {}
+  },
+  "e5_f5_test": {
+    "so_cua_so": 13007,
+    "so_truong_hop": 0,
+    "theo_ly_do": {}
+  }
+}

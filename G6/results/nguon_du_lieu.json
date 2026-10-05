@@ -1,0 +1,317 @@
+{
+  "bo_du_lieu": "PPG-DaLiA (PPG_FieldStudy)",
+  "nguon": "UCI Machine Learning Repository, DOI 10.24432/C53890",
+  "tac_gia": "A. Reiss, I. Indlekofer, P. Schmidt, K. Van Laerhoven",
+  "phien_ban": "Ban dong bo SX.pkl kem PPG_FieldStudy_readme.pdf (tep trong goi tai ve, khong ghi so phien ban rieng)",
+  "ngay_tinh_ma": "2026-09-24T11:57:59",
+  "readme": {
+    "tep": "data/PPG_FieldStudy/PPG_FieldStudy_readme.pdf",
+    "kich_thuoc_byte": 817798,
+    "sha256": "018a3bab7f1d02261ad4a42720f2235ac20e1c3c0a052f02ef91208096d4fc1b"
+  },
+  "tep_goc": [
+    {
+      "tep": "data/PPG_FieldStudy/S1/S1.pkl",
+      "kich_thuoc_byte": 1454035828,
+      "sha256": "e4a35dfe711368d447a2a383e5dd98191594928ccb2ca8deeeda06cd6e628c14"
+    },
+    {
+      "tep": "data/PPG_FieldStudy/S2/S2.pkl",
+      "kich_thuoc_byte": 1276598361,
+      "sha256": "5655a60bbc7c5e560f64bc238218284613c9528ae9e3c5517946d476fa8e4399"
+    },
+    {
+      "tep": "data/PPG_FieldStudy/S3/S3.pkl",
+      "kich_thuoc_byte": 1365790643,
+      "sha256": "0fe923d3a7e7fd60e5245e655a9c1d0a1c2c106ea3128e2dfe79ba0f2266f799"
+    },
+    {
+      "tep": "data/PPG_FieldStudy/S4/S4.pkl",
+      "kich_thuoc_byte": 1435645404,
+      "sha256": "539c0f112507a5b8b21d90f648f932ad4ba8acaeb76fb3b06d1d06b033cafda2"
+    },
+    {
+      "tep": "data/PPG_FieldStudy/S5/S5.pkl",
+      "kich_thuoc_byte": 1459596295,
+      "sha256": "e9593717aa524e4c0ab37ba5603f7e6190fff1385251d5a9615342f38f55afb1"
+    },
+    {
+      "tep": "data/PPG_FieldStudy/S6/S6.pkl",
+      "kich_thuoc_byte": 825860436,
+      "sha256": "c9fece7217d0ffd648e55ec9d139237bfb37b9958efb6cff072d438e46ba34e4"
+    },
+    {
+      "tep": "data/PPG_FieldStudy/S7/S7.pkl",
+      "kich_thuoc_byte": 1465092431,
+      "sha256": "ea669d42137d1a90127bb7be3c5c5613f636a00814cd04c604c42586868b0390"
+    },
+    {
+      "tep": "data/PPG_FieldStudy/S8/S8.pkl",
+      "kich_thuoc_byte": 1263659052,
+      "sha256": "4072e197ff7ddbd184d721b6643215dd7101af93e1a9c00cbcca7827c94b4969"
+    },
+    {
+      "tep": "data/PPG_FieldStudy/S9/S9.pkl",
+      "kich_thuoc_byte": 1346572259,
+      "sha256": "68853d6ae4cc5d22dcf0b3a693a367305a6c28287cf5248a99c6f0f49c65cf56"
+    },
+    {
+      "tep": "data/PPG_FieldStudy/S10/S10.pkl",
+      "kich_thuoc_byte": 1668779257,
+      "sha256": "bed48c8e38bdaed8fbd5e3f662b49d240119a98dfe4619e4902931a0335f4e4f"
+    },
+    {
+      "tep": "data/PPG_FieldStudy/S11/S11.pkl",
+      "kich_thuoc_byte": 1418155321,
+      "sha256": "5c5c4c0308478df56e2f464810fa949abbf25450c9c934edc5cb00beb7cecff5"
+    },
+    {
+      "tep": "data/PPG_FieldStudy/S12/S12.pkl",
+      "kich_thuoc_byte": 1235620519,
+      "sha256": "a7a5c802f0005a633c86956fe92dfe60b350f80b27bd2509880e50582dedd406"
+    },
+    {
+      "tep": "data/PPG_FieldStudy/S13/S13.pkl",
+      "kich_thuoc_byte": 1422151676,
+      "sha256": "7ca31b91bf1825083707a4be1ce65612d864c7effa077d6780154419df5d9813"
+    },
+    {
+      "tep": "data/PPG_FieldStudy/S14/S14.pkl",
+      "kich_thuoc_byte": 1399178026,
+      "sha256": "c192b9090ac3c0107000d8424c038ccd11292cded1f6c46c97e2cae85c725392"
+    },
+    {
+      "tep": "data/PPG_FieldStudy/S15/S15.pkl",
+      "kich_thuoc_byte": 1242403295,
+      "sha256": "1f080cbce67be7a0638787e745c3a73a50bab7db4be0da3b6c84288d42aa3497"
+    }
+  ],
+  "tep_cache_chuong_trinh_doc": [
+    {
+      "tep": "dalia_cache/dalia_S1.npz",
+      "kich_thuoc_byte": 1658455,
+      "sha256": "073372aafc5e809e3bb103bd650b048350e0c459ed370067d456520f4c9c456c"
+    },
+    {
+      "tep": "dalia_cache/dalia_S10.npz",
+      "kich_thuoc_byte": 1821260,
+      "sha256": "ce364cdd760c2b26c64ca8f929b251bbf53971216a216e782e9ea4304d33f4cd"
+    },
+    {
+      "tep": "dalia_cache/dalia_S11.npz",
+      "kich_thuoc_byte": 1598607,
+      "sha256": "8b82e659352380fe9725550acf3652dbb8d04ea25e0e3de88b9ee4388c389cff"
+    },
+    {
+      "tep": "dalia_cache/dalia_S12.npz",
+      "kich_thuoc_byte": 1450285,
+      "sha256": "70abe557d829d525f3d5e3ed4ef8ffbfb5bf981a08bc6c1ceb3b8659c2ae0aa5"
+    },
+    {
+      "tep": "dalia_cache/dalia_S13.npz",
+      "kich_thuoc_byte": 1646337,
+      "sha256": "940764bd696a906b2e053148622b1b6db562fea97a9cf4c7c3113b316d2eaa87"
+    },
+    {
+      "tep": "dalia_cache/dalia_S14.npz",
+      "kich_thuoc_byte": 1631934,
+      "sha256": "cd7344a437d3c3fc590cd991c80004cc36d7e2629f64126aa5bee2ae36e84042"
+    },
+    {
+      "tep": "dalia_cache/dalia_S15.npz",
+      "kich_thuoc_byte": 1336479,
+      "sha256": "10cde671ee5dfd569f263d46a10b45ec2b50a6752f10c7f47623ae76f97ef0ec"
+    },
+    {
+      "tep": "dalia_cache/dalia_S2.npz",
+      "kich_thuoc_byte": 1335059,
+      "sha256": "34fdc322207b89cac614e2c7fe1d6be74ddf13884d08a15221b3db012fb23deb"
+    },
+    {
+      "tep": "dalia_cache/dalia_S3.npz",
+      "kich_thuoc_byte": 1516597,
+      "sha256": "8dc589c87333e61909ce956e8c17f1edd8d2bd71d869898396009f232b1e2a89"
+    },
+    {
+      "tep": "dalia_cache/dalia_S4.npz",
+      "kich_thuoc_byte": 1555651,
+      "sha256": "a11ebd2f83cd05c18bd6814d17ae63bcff3aceba79e98fb4edc62e11d03520a8"
+    },
+    {
+      "tep": "dalia_cache/dalia_S5.npz",
+      "kich_thuoc_byte": 1692491,
+      "sha256": "1958ea1a0639e634710eef1b5694c11384c8156affd53ad79ec764781236125d"
+    },
+    {
+      "tep": "dalia_cache/dalia_S6.npz",
+      "kich_thuoc_byte": 932542,
+      "sha256": "727b1b710f9870f1c3c690bd85ec9bd482d04afc47adec4398bbd92d4afa5547"
+    },
+    {
+      "tep": "dalia_cache/dalia_S7.npz",
+      "kich_thuoc_byte": 1616046,
+      "sha256": "795af7b3c12fabeabf4a18bd496e7cddfdaa1d4f4c5172df48ad9040438a9f45"
+    },
+    {
+      "tep": "dalia_cache/dalia_S8.npz",
+      "kich_thuoc_byte": 1340475,
+      "sha256": "3312541a33caef83ce64b6e75f98f61b060146f86bff8c9a20718bb7c6afe92f"
+    },
+    {
+      "tep": "dalia_cache/dalia_S9.npz",
+      "kich_thuoc_byte": 1482649,
+      "sha256": "9dfaaecbebcc0d0ce7735b41d71c5a24d78fac9e4046537a976089ba00b36044"
+    },
+    {
+      "tep": "dalia_cache/hr_S1.npz",
+      "kich_thuoc_byte": 47190,
+      "sha256": "6212db95d0c27773cd79e31f9f845b2d081b9535f9fa3f6afb77af4b0c8b0a97"
+    },
+    {
+      "tep": "dalia_cache/hr_S10.npz",
+      "kich_thuoc_byte": 60699,
+      "sha256": "8bf9f39038e9b6319bdf4a9fa307b7400f1a5d5e866d049999efb2d8571f3ba9"
+    },
+    {
+      "tep": "dalia_cache/hr_S11.npz",
+      "kich_thuoc_byte": 58405,
+      "sha256": "4e6c4008bc77e508bc868742747afbdbeb176b1d93ce7dc60269eae617b54379"
+    },
+    {
+      "tep": "dalia_cache/hr_S12.npz",
+      "kich_thuoc_byte": 39392,
+      "sha256": "a6df8b5db7486969f3166270cb5da87aa1cc2ad71c52b46fd7fb5d38bd523f24"
+    },
+    {
+      "tep": "dalia_cache/hr_S13.npz",
+      "kich_thuoc_byte": 53140,
+      "sha256": "b3154990b1fd1d06e7a899506ba81ecf0d3967f957640659a4794144d82b51e9"
+    },
+    {
+      "tep": "dalia_cache/hr_S14.npz",
+      "kich_thuoc_byte": 52037,
+      "sha256": "1731ea381bee041dd5ad77fa3e81260248835ceaa9c142081ebd59ea096ff964"
+    },
+    {
+      "tep": "dalia_cache/hr_S15.npz",
+      "kich_thuoc_byte": 42593,
+      "sha256": "0784ed1291bba7af5b6d7f43d4340ee5029adbbcf5dd59e2f5d7ae141b29162f"
+    },
+    {
+      "tep": "dalia_cache/hr_S2.npz",
+      "kich_thuoc_byte": 44890,
+      "sha256": "eb4a0b504d62e933e2c57b94ed2dcfdc28a11ff2f7a95dfa5ebc31091daf5ce5"
+    },
+    {
+      "tep": "dalia_cache/hr_S3.npz",
+      "kich_thuoc_byte": 50571,
+      "sha256": "7dd9819a3ab1a6395cab724248da9e12e7d963a8def85c02f60b6ae49ab1942e"
+    },
+    {
+      "tep": "dalia_cache/hr_S4.npz",
+      "kich_thuoc_byte": 52375,
+      "sha256": "6a28dd6275fa6ac7241063d277b7d47ec604b4c6353a170ebd41ab227709770e"
+    },
+    {
+      "tep": "dalia_cache/hr_S5.npz",
+      "kich_thuoc_byte": 70038,
+      "sha256": "c46e8000af8941d9d184d1fe59e71988348032bc5ac76352fff625e61447f552"
+    },
+    {
+      "tep": "dalia_cache/hr_S6.npz",
+      "kich_thuoc_byte": 38141,
+      "sha256": "4b3bdb86132221bea0dd63c9ee657501cffc3f3c3a3c23eaca6b0aa59ac4fbd1"
+    },
+    {
+      "tep": "dalia_cache/hr_S7.npz",
+      "kich_thuoc_byte": 52995,
+      "sha256": "16188d3750215669fc417dbbf93371479098c534a4645a2d308c760488bb6e4e"
+    },
+    {
+      "tep": "dalia_cache/hr_S8.npz",
+      "kich_thuoc_byte": 40661,
+      "sha256": "2b48839b767158bee6574b6a28a9055c9297d0e8de1188f1a87961697c4a0ab6"
+    },
+    {
+      "tep": "dalia_cache/hr_S9.npz",
+      "kich_thuoc_byte": 49015,
+      "sha256": "afdf02104f859a43c826442f836f42e1bb8b4479dd4041a6222e7e639c4d86d4"
+    },
+    {
+      "tep": "dalia_cache/imu_S1.npz",
+      "kich_thuoc_byte": 803558,
+      "sha256": "8ab748d5d6eed8ddbed72b34196071ad246e9711da0905d8df8a43dfc392a915"
+    },
+    {
+      "tep": "dalia_cache/imu_S10.npz",
+      "kich_thuoc_byte": 974569,
+      "sha256": "549612bf05b0b9cae466da8825787c67345634222709a37c60438a67e023d906"
+    },
+    {
+      "tep": "dalia_cache/imu_S11.npz",
+      "kich_thuoc_byte": 832669,
+      "sha256": "2f6efa55465b4058a83f3cfea23d54836367b4a83594ec8dd21913d053211a5d"
+    },
+    {
+      "tep": "dalia_cache/imu_S12.npz",
+      "kich_thuoc_byte": 739672,
+      "sha256": "884aa6bd91067e6bd47bd5cd0a989e710d7eec5a7ae29516a702d256ffe3ad70"
+    },
+    {
+      "tep": "dalia_cache/imu_S13.npz",
+      "kich_thuoc_byte": 849276,
+      "sha256": "9512ad943c16e29dddcf7bda73b6be48773c91738dd34ff4e54be8b9ec71d538"
+    },
+    {
+      "tep": "dalia_cache/imu_S14.npz",
+      "kich_thuoc_byte": 786824,
+      "sha256": "ae76793c17fe92683d751ea72d0c0ffd0a99eb63dfb3ab10f6e06576bd93683a"
+    },
+    {
+      "tep": "dalia_cache/imu_S15.npz",
+      "kich_thuoc_byte": 695066,
+      "sha256": "328eb9a24e67b405611e201540a8a7a1ce4a33c8ffcfdcb09d79a96aba9741ad"
+    },
+    {
+      "tep": "dalia_cache/imu_S2.npz",
+      "kich_thuoc_byte": 713261,
+      "sha256": "475c85e2f3fd4f997f1c7beebb351c4a9243a17d0d0c5eef3c33d2e739546bec"
+    },
+    {
+      "tep": "dalia_cache/imu_S3.npz",
+      "kich_thuoc_byte": 809950,
+      "sha256": "d3b758e99de13a69d44ef8b0d9c4eb9a6638dffdf476a06fb6dd6858c5efc3a1"
+    },
+    {
+      "tep": "dalia_cache/imu_S4.npz",
+      "kich_thuoc_byte": 849035,
+      "sha256": "a324392b4e9de4520be1807f86b35efbef344b42bd846c01ebef640d64307df3"
+    },
+    {
+      "tep": "dalia_cache/imu_S5.npz",
+      "kich_thuoc_byte": 953919,
+      "sha256": "6d414ae89f12d0b6a7b5361ad9fc8a56917d872efd5d1d15d4b0f95cee0dac8b"
+    },
+    {
+      "tep": "dalia_cache/imu_S6.npz",
+      "kich_thuoc_byte": 557393,
+      "sha256": "70df6730e07f41dc5df331acf0df169c88b4d6921012756ba6d6e64dd64cbeca"
+    },
+    {
+      "tep": "dalia_cache/imu_S7.npz",
+      "kich_thuoc_byte": 837532,
+      "sha256": "2e76bd7f0349c0b67f264df8529ba47421567142afc0069dd3507e5cfeec1327"
+    },
+    {
+      "tep": "dalia_cache/imu_S8.npz",
+      "kich_thuoc_byte": 699903,
+      "sha256": "f5915aa748f5ff6f32cb6ce0e1cfe3492005df8905800e28e40b6cda17b8ec3c"
+    },
+    {
+      "tep": "dalia_cache/imu_S9.npz",
+      "kich_thuoc_byte": 813758,
+      "sha256": "c5951bfdba01fbbb6ee05788ece8d20fc85542152b21c74ef505864957edba8d"
+    }
+  ],
+  "cach_tao_cache": "dalia_S*.npz va imu_S*.npz tao boi make_cache.py (BVP, ACC co tay, nhan hoat dong); hr_S*.npz tao boi G6/prep_hr.py (nhan HR tu ECG va rpeaks). Khong xu ly them."
+}

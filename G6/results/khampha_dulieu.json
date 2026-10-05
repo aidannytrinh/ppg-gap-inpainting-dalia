@@ -1,0 +1,223 @@
+{
+  "doi_tuong": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "ghi_chu": "Chi dung train va validation (S1..S12); khong dung test.",
+  "cua_so_mau_S1": {
+    "ngồi": {
+      "cua_so": 218,
+      "hr_ecg": 53.5,
+      "do_lech_chuan": 26.66
+    },
+    "đi bộ": {
+      "cua_so": 3662,
+      "hr_ecg": 89.7,
+      "do_lech_chuan": 90.47
+    },
+    "đạp xe": {
+      "cua_so": 1060,
+      "hr_ecg": 100.8,
+      "do_lech_chuan": 111.11
+    },
+    "cầu thang": {
+      "cua_so": 488,
+      "hr_ecg": 107.4,
+      "do_lech_chuan": 54.01
+    }
+  },
+  "nhip_tim": {
+    "S1": {
+      "min": 41.9,
+      "trung_vi": 71.8,
+      "max": 150.2
+    },
+    "S2": {
+      "min": 56.9,
+      "trung_vi": 79.5,
+      "max": 149.2
+    },
+    "S3": {
+      "min": 44.5,
+      "trung_vi": 88.2,
+      "max": 148.7
+    },
+    "S4": {
+      "min": 56.2,
+      "trung_vi": 86.7,
+      "max": 132.0
+    },
+    "S5": {
+      "min": 82.5,
+      "trung_vi": 121.9,
+      "max": 187.0
+    },
+    "S6": {
+      "min": 76.9,
+      "trung_vi": 120.9,
+      "max": 174.3
+    },
+    "S7": {
+      "min": 48.6,
+      "trung_vi": 83.6,
+      "max": 152.9
+    },
+    "S8": {
+      "min": 45.4,
+      "trung_vi": 73.4,
+      "max": 115.5
+    },
+    "S9": {
+      "min": 54.8,
+      "trung_vi": 80.9,
+      "max": 154.3
+    },
+    "S10": {
+      "min": 56.4,
+      "trung_vi": 87.6,
+      "max": 146.4
+    },
+    "S11": {
+      "min": 54.7,
+      "trung_vi": 101.9,
+      "max": 171.1
+    },
+    "S12": {
+      "min": 41.7,
+      "trung_vi": 70.9,
+      "max": 120.5
+    }
+  },
+  "nhip_tim_tren_170": {
+    "S1": 0,
+    "S2": 0,
+    "S3": 0,
+    "S4": 0,
+    "S5": 168,
+    "S6": 40,
+    "S7": 0,
+    "S8": 0,
+    "S9": 0,
+    "S10": 0,
+    "S11": 25,
+    "S12": 0
+  },
+  "nhip_tim_chung": {
+    "min": 41.7,
+    "trung_vi": 85.6,
+    "max": 187.0,
+    "ty_le_tren_170": 0.00451,
+    "so_cua_so": 51690
+  },
+  "hoat_dong": {
+    "chuyển tiếp": {
+      "so_cua_so": 13796,
+      "ty_le": 0.2669
+    },
+    "ăn trưa": {
+      "so_cua_so": 10927,
+      "ty_le": 0.2114
+    },
+    "làm việc": {
+      "so_cua_so": 6658,
+      "ty_le": 0.1288
+    },
+    "lái xe": {
+      "so_cua_so": 5497,
+      "ty_le": 0.1063
+    },
+    "đi bộ": {
+      "so_cua_so": 3679,
+      "ty_le": 0.0712
+    },
+    "ngồi": {
+      "so_cua_so": 3633,
+      "ty_le": 0.0703
+    },
+    "đạp xe": {
+      "so_cua_so": 2746,
+      "ty_le": 0.0531
+    },
+    "cầu thang": {
+      "so_cua_so": 2528,
+      "ty_le": 0.0489
+    },
+    "bi lắc": {
+      "so_cua_so": 1801,
+      "ty_le": 0.0348
+    },
+    "hỗn hợp": {
+      "so_cua_so": 425,
+      "ty_le": 0.0082
+    }
+  },
+  "hoat_dong_tong": 51690,
+  "hoat_dong_so_nguoi": {
+    "chuyển tiếp": 12,
+    "ăn trưa": 11,
+    "làm việc": 11,
+    "lái xe": 12,
+    "đi bộ": 11,
+    "ngồi": 12,
+    "đạp xe": 12,
+    "cầu thang": 12,
+    "bi lắc": 12,
+    "hỗn hợp": 12
+  },
+  "bien_do": {
+    "trung_vi_theo_nguoi": {
+      "S1": 80.2,
+      "S2": 28.4,
+      "S3": 51.9,
+      "S4": 44.2,
+      "S5": 85.4,
+      "S6": 68.4,
+      "S7": 54.6,
+      "S8": 36.0,
+      "S9": 57.9,
+      "S10": 42.6,
+      "S11": 63.3,
+      "S12": 111.9
+    },
+    "ti_so_nguoi_lon_nho": 3.94,
+    "trung_vi_theo_hoat_dong": {
+      "ngồi": 28.6,
+      "làm việc": 53.1,
+      "ăn trưa": 54.3,
+      "lái xe": 68.4,
+      "đạp xe": 55.6,
+      "đi bộ": 56.7,
+      "cầu thang": 36.8,
+      "bi lắc": 71.0,
+      "chuyển tiếp": 61.1,
+      "hỗn hợp": 63.3
+    },
+    "ti_so_p95_p5_chung": 10.3
+  },
+  "pho_tan_so": {
+    "ngồi": {
+      "n": 600,
+      "tan_so_dinh_hz": 1.0,
+      "ty_le_cong_suat_0p5_8": 0.9617,
+      "ty_le_cong_suat_duoi_0p5": 0.0382,
+      "ty_le_cong_suat_tren_8": 0.0001
+    },
+    "đi bộ": {
+      "n": 600,
+      "tan_so_dinh_hz": 0.875,
+      "ty_le_cong_suat_0p5_8": 0.9471,
+      "ty_le_cong_suat_duoi_0p5": 0.0527,
+      "ty_le_cong_suat_tren_8": 0.0003
+    }
+  }
+}

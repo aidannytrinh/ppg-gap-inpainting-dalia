@@ -1,0 +1,26 @@
+{
+  "quy_tac": "phan vi MAE mo hinh chinh tren test",
+  "chon": {
+    "tốt": {
+      "phan_vi": 5,
+      "sid": 13,
+      "cua_so": 2841,
+      "mae_mo_hinh": 0.1341,
+      "mae_lap_chu_ky": 0.3598
+    },
+    "trung vị": {
+      "phan_vi": 50,
+      "sid": 15,
+      "cua_so": 2805,
+      "mae_mo_hinh": 0.4345,
+      "mae_lap_chu_ky": 0.4639
+    },
+    "kém": {
+      "phan_vi": 95,
+      "sid": 15,
+      "cua_so": 2972,
+      "mae_mo_hinh": 1.1291,
+      "mae_lap_chu_ky": 1.5465
+    }
+  }
+}

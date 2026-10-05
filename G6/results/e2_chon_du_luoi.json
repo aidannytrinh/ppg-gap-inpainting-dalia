@@ -1,0 +1,87 @@
+{
+  "quy_tac": "Voi moi ban (bo Bi-LSTM, them ACC), chon lambda co MAE validation macro (S11, S12) nho nhat tren du 4 gia tri. Khong dung bat ky so lieu test nao de chon.",
+  "thoi_diem_chot_quy_tac": "2026-10-04T10:57:56",
+  "thoi_diem_khoa": "2026-09-24T09:52:04",
+  "nhom": {
+    "e2a_nolstm": {
+      "ten": "bo Bi-LSTM",
+      "bang": {
+        "0": {
+          "id": "e2a_nolstm_lam0",
+          "mae_val": 0.68568,
+          "epoch_tot_nhat": 98,
+          "epoch_chay": 100,
+          "giay_moi_epoch": 11.0,
+          "tham_so": 36337
+        },
+        "0.1": {
+          "id": "e2a_nolstm_lam0.1",
+          "mae_val": 0.68777,
+          "epoch_tot_nhat": 91,
+          "epoch_chay": 100,
+          "giay_moi_epoch": 24.6,
+          "tham_so": 36337
+        },
+        "0.5": {
+          "id": "e2a_nolstm_lam0.5",
+          "mae_val": 0.68623,
+          "epoch_tot_nhat": 91,
+          "epoch_chay": 100,
+          "giay_moi_epoch": 11.1,
+          "tham_so": 36337
+        },
+        "1": {
+          "id": "e2a_nolstm_lam1",
+          "mae_val": 0.68562,
+          "epoch_tot_nhat": 98,
+          "epoch_chay": 100,
+          "giay_moi_epoch": 22.5,
+          "tham_so": 36337
+        }
+      },
+      "chon_du_luoi": "e2a_nolstm_lam1",
+      "chon_trong_file_khoa": "e2a_nolstm_lam0",
+      "trung_lua_chon_cu": false
+    },
+    "e2c_acc": {
+      "ten": "them ACC",
+      "bang": {
+        "0": {
+          "id": "e2c_acc_lam0",
+          "mae_val": 0.55515,
+          "epoch_tot_nhat": 61,
+          "epoch_chay": 71,
+          "giay_moi_epoch": 25.3,
+          "tham_so": 117569
+        },
+        "0.1": {
+          "id": "e2c_acc_lam0.1",
+          "mae_val": 0.55389,
+          "epoch_tot_nhat": 72,
+          "epoch_chay": 82,
+          "giay_moi_epoch": 50.7,
+          "tham_so": 117569
+        },
+        "0.5": {
+          "id": "e2c_acc_lam0.5",
+          "mae_val": 0.54959,
+          "epoch_tot_nhat": 69,
+          "epoch_chay": 79,
+          "giay_moi_epoch": 25.7,
+          "tham_so": 117569
+        },
+        "1": {
+          "id": "e2c_acc_lam1",
+          "mae_val": 0.5474,
+          "epoch_tot_nhat": 69,
+          "epoch_chay": 79,
+          "giay_moi_epoch": 50.8,
+          "tham_so": 117569
+        }
+      },
+      "chon_du_luoi": "e2c_acc_lam1",
+      "chon_trong_file_khoa": "e2c_acc_lam0.5",
+      "trung_lua_chon_cu": false
+    }
+  }
+}

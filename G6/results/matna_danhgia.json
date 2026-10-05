@@ -1,0 +1,15 @@
+{
+  "quy_tac": "khoang thieu co dinh cho validation va test, muc 2.3 de cuong",
+  "a": 192,
+  "b": 319,
+  "do_dai": 128,
+  "win": 512,
+  "huan_luyen": "a ngau nhien deu trong 64..320, sinh lai moi epoch, seed ghi trong cau hinh",
+  "bo_vi_tri_khao_sat": [
+    64,
+    128,
+    192,
+    256,
+    320
+  ]
+}

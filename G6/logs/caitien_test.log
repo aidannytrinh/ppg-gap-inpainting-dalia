@@ -1,0 +1,74 @@
+test a=64: cho 5.0 s sau doan mat | phuong phap: ['lap_chu_ky', 'tuyen_tinh', 'spline', 'mo_hinh_chinh[e4_lam0.5]']
+  S13: 4565 cua so, 4 phuong phap
+  S14: 4476 cua so, 4 phuong phap
+  S15: 3966 cua so, 4 phuong phap
+
+phuong phap                 MAE     RMSE  MAE_HR_pr MAE_HR_ECG du_phong
+lap_chu_ky               1.0324   1.2782     10.935     13.314    53.4%
+tuyen_tinh               1.0185   1.2623     15.879     16.845     0.0%
+spline                   2.2336   2.6907     15.766     16.741     0.0%
+mo_hinh_chinh[e4_lam0.5]   0.5268   0.6824      3.168      6.741     0.0%
+Sai so nen bo doc H(PPG day du) so ECG: 6.988 bpm | tap hop le chung 13007/13007
+test a=128: cho 4.0 s sau doan mat | phuong phap: ['lap_chu_ky', 'tuyen_tinh', 'spline', 'mo_hinh_chinh[e4_lam0.5]']
+  S13: 4565 cua so, 4 phuong phap
+  S14: 4476 cua so, 4 phuong phap
+  S15: 3966 cua so, 4 phuong phap
+
+phuong phap                 MAE     RMSE  MAE_HR_pr MAE_HR_ECG du_phong
+lap_chu_ky               0.9861   1.2287      5.297      9.073     1.7%
+tuyen_tinh               1.0027   1.2446     15.855     16.822     0.0%
+spline                   2.2588   2.7210     15.861     16.811     0.0%
+mo_hinh_chinh[e4_lam0.5]   0.5102   0.6622      3.030      6.652     0.0%
+Sai so nen bo doc H(PPG day du) so ECG: 6.988 bpm | tap hop le chung 13007/13007
+test a=192: cho 3.0 s sau doan mat | phuong phap: ['lap_chu_ky', 'tuyen_tinh', 'spline', 'mo_hinh_chinh[e4_lam0.5]']
+  S13: 4565 cua so, 4 phuong phap
+  S14: 4476 cua so, 4 phuong phap
+  S15: 3966 cua so, 4 phuong phap
+
+phuong phap                 MAE     RMSE  MAE_HR_pr MAE_HR_ECG du_phong
+lap_chu_ky               0.9712   1.2118      5.146      8.994     0.0%
+tuyen_tinh               1.0081   1.2493     15.865     16.812     0.0%
+spline                   2.2144   2.6672     15.896     16.836     0.0%
+mo_hinh_chinh[e4_lam0.5]   0.5079   0.6588      2.990      6.607     0.0%
+Sai so nen bo doc H(PPG day du) so ECG: 6.988 bpm | tap hop le chung 13007/13007
+test a=256: cho 2.0 s sau doan mat | phuong phap: ['lap_chu_ky', 'tuyen_tinh', 'spline', 'mo_hinh_chinh[e4_lam0.5]']
+  S13: 4565 cua so, 4 phuong phap
+  S14: 4476 cua so, 4 phuong phap
+  S15: 3966 cua so, 4 phuong phap
+
+phuong phap                 MAE     RMSE  MAE_HR_pr MAE_HR_ECG du_phong
+lap_chu_ky               0.9722   1.2137      5.136      8.970     0.0%
+tuyen_tinh               1.0028   1.2450     15.809     16.765     0.0%
+spline                   2.2546   2.7160     15.891     16.839     0.0%
+mo_hinh_chinh[e4_lam0.5]   0.5121   0.6645      3.014      6.632     0.0%
+Sai so nen bo doc H(PPG day du) so ECG: 6.988 bpm | tap hop le chung 13007/13007
+test a=320: cho 1.0 s sau doan mat | phuong phap: ['lap_chu_ky', 'tuyen_tinh', 'spline', 'mo_hinh_chinh[e4_lam0.5]']
+  S13: 4565 cua so, 4 phuong phap
+  S14: 4476 cua so, 4 phuong phap
+  S15: 3966 cua so, 4 phuong phap
+
+phuong phap                 MAE     RMSE  MAE_HR_pr MAE_HR_ECG du_phong
+lap_chu_ky               0.9769   1.2193      5.146      8.981     0.0%
+tuyen_tinh               1.0178   1.2617     15.425     16.450     0.0%
+spline                   2.2391   2.6967     15.734     16.718     0.0%
+mo_hinh_chinh[e4_lam0.5]   0.5297   0.6862      3.141      6.777     0.0%
+Sai so nen bo doc H(PPG day du) so ECG: 6.988 bpm | tap hop le chung 13007/13007
+test a=352: cho 0.5 s sau doan mat | phuong phap: ['lap_chu_ky', 'tuyen_tinh', 'mo_hinh_chinh[e4_lam0.5]']
+  S13: 4565 cua so, 3 phuong phap
+  S14: 4476 cua so, 3 phuong phap
+  S15: 3966 cua so, 3 phuong phap
+
+phuong phap                 MAE     RMSE  MAE_HR_pr MAE_HR_ECG du_phong
+lap_chu_ky               0.9875   1.2337      5.162      8.909     0.0%
+tuyen_tinh               1.0261   1.2719     15.280     16.334     0.0%
+mo_hinh_chinh[e4_lam0.5]   0.5655   0.7315      3.546      7.073     0.0%
+Sai so nen bo doc H(PPG day du) so ECG: 6.988 bpm | tap hop le chung 13007/13007
+test a=384: cho 0.0 s sau doan mat | phuong phap: ['lap_chu_ky', 'mo_hinh_chinh[e4_lam0.5]']
+  S13: 4565 cua so, 2 phuong phap
+  S14: 4476 cua so, 2 phuong phap
+  S15: 3966 cua so, 2 phuong phap
+
+phuong phap                 MAE     RMSE  MAE_HR_pr MAE_HR_ECG du_phong
+lap_chu_ky               1.0284   1.2783      4.756      8.446     0.0%
+mo_hinh_chinh[e4_lam0.5]   0.6838   0.8748      3.828      7.128     0.0%
+Sai so nen bo doc H(PPG day du) so ECG: 6.988 bpm | tap hop le chung 13007/13007

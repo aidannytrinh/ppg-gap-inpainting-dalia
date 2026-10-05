@@ -1,0 +1,82 @@
+Vi tri a=64: khoang thieu 64..191 | cua so khong du dieu kien: {13: 0, 14: 0, 15: 0}
+  S13: 4565 cua so, 7 phuong phap
+  S14: 4476 cua so, 7 phuong phap
+  S15: 3966 cua so, 7 phuong phap
+
+phuong phap                 MAE     RMSE  MAE_HR_pr MAE_HR_ECG du_phong
+tuyen_tinh               1.0185   1.2623     15.879     16.845     0.0%
+spline                   2.2336   2.6907     15.766     16.741     0.0%
+lap_chu_ky               1.0324   1.2782     10.935     13.314    53.4%
+mo_hinh_chinh[e4_lam0.5]   0.5268   0.6824      3.168      6.741     0.0%
+e2a_bo_lstm[e2a_nolstm_lam0]   0.6875   0.8861      7.639     10.303     0.0%
+e2b_lam0[e4_lam0]        0.5314   0.6850      3.135      6.684     0.0%
+e2c_them_acc[e2c_acc_lam0.5]   0.5378   0.6931      3.080      6.727     0.0%
+Sai so nen bo doc H(PPG day du) so ECG: 6.988 bpm | tap hop le chung 13007/13007
+Da ghi khaosat_vitri_a64.json
+Vi tri a=128: khoang thieu 128..255 | cua so khong du dieu kien: {13: 0, 14: 0, 15: 0}
+  S13: 4565 cua so, 7 phuong phap
+  S14: 4476 cua so, 7 phuong phap
+  S15: 3966 cua so, 7 phuong phap
+
+phuong phap                 MAE     RMSE  MAE_HR_pr MAE_HR_ECG du_phong
+tuyen_tinh               1.0027   1.2446     15.855     16.822     0.0%
+spline                   2.2588   2.7210     15.861     16.811     0.0%
+lap_chu_ky               0.9861   1.2287      5.297      9.073     1.7%
+mo_hinh_chinh[e4_lam0.5]   0.5102   0.6622      3.030      6.652     0.0%
+e2a_bo_lstm[e2a_nolstm_lam0]   0.6838   0.8810      7.596     10.334     0.0%
+e2b_lam0[e4_lam0]        0.5147   0.6646      3.009      6.592     0.0%
+e2c_them_acc[e2c_acc_lam0.5]   0.5177   0.6688      2.897      6.640     0.0%
+Sai so nen bo doc H(PPG day du) so ECG: 6.988 bpm | tap hop le chung 13007/13007
+Da ghi khaosat_vitri_a128.json
+Vi tri a=192: khoang thieu 192..319 | cua so khong du dieu kien: {13: 0, 14: 0, 15: 0}
+  S13: 4565 cua so, 7 phuong phap
+  S14: 4476 cua so, 7 phuong phap
+  S15: 3966 cua so, 7 phuong phap
+
+phuong phap                 MAE     RMSE  MAE_HR_pr MAE_HR_ECG du_phong
+tuyen_tinh               1.0081   1.2493     15.865     16.812     0.0%
+spline                   2.2144   2.6672     15.896     16.836     0.0%
+lap_chu_ky               0.9712   1.2118      5.146      8.994     0.0%
+mo_hinh_chinh[e4_lam0.5]   0.5079   0.6588      2.990      6.607     0.0%
+e2a_bo_lstm[e2a_nolstm_lam0]   0.6809   0.8780      7.585     10.320     0.0%
+e2b_lam0[e4_lam0]        0.5121   0.6611      2.986      6.607     0.0%
+e2c_them_acc[e2c_acc_lam0.5]   0.5151   0.6653      2.936      6.617     0.0%
+Sai so nen bo doc H(PPG day du) so ECG: 6.988 bpm | tap hop le chung 13007/13007
+Da ghi khaosat_vitri_a192.json
+Vi tri a=256: khoang thieu 256..383 | cua so khong du dieu kien: {13: 0, 14: 0, 15: 0}
+  S13: 4565 cua so, 7 phuong phap
+  S14: 4476 cua so, 7 phuong phap
+  S15: 3966 cua so, 7 phuong phap
+
+phuong phap                 MAE     RMSE  MAE_HR_pr MAE_HR_ECG du_phong
+tuyen_tinh               1.0028   1.2450     15.809     16.765     0.0%
+spline                   2.2546   2.7160     15.891     16.839     0.0%
+lap_chu_ky               0.9722   1.2137      5.136      8.970     0.0%
+mo_hinh_chinh[e4_lam0.5]   0.5121   0.6645      3.014      6.632     0.0%
+e2a_bo_lstm[e2a_nolstm_lam0]   0.6842   0.8817      7.597     10.377     0.0%
+e2b_lam0[e4_lam0]        0.5158   0.6661      3.019      6.629     0.0%
+e2c_them_acc[e2c_acc_lam0.5]   0.5172   0.6682      2.935      6.647     0.0%
+Sai so nen bo doc H(PPG day du) so ECG: 6.988 bpm | tap hop le chung 13007/13007
+Da ghi khaosat_vitri_a256.json
+Vi tri a=320: khoang thieu 320..447 | cua so khong du dieu kien: {13: 0, 14: 0, 15: 0}
+  S13: 4565 cua so, 7 phuong phap
+  S14: 4476 cua so, 7 phuong phap
+  S15: 3966 cua so, 7 phuong phap
+
+phuong phap                 MAE     RMSE  MAE_HR_pr MAE_HR_ECG du_phong
+tuyen_tinh               1.0178   1.2617     15.425     16.450     0.0%
+spline                   2.2391   2.6967     15.734     16.718     0.0%
+lap_chu_ky               0.9769   1.2193      5.146      8.981     0.0%
+mo_hinh_chinh[e4_lam0.5]   0.5297   0.6862      3.141      6.777     0.0%
+e2a_bo_lstm[e2a_nolstm_lam0]   0.6876   0.8861      7.508     10.338     0.0%
+e2b_lam0[e4_lam0]        0.5326   0.6868      3.152      6.756     0.0%
+e2c_them_acc[e2c_acc_lam0.5]   0.5348   0.6896      3.106      6.807     0.0%
+Sai so nen bo doc H(PPG day du) so ECG: 6.988 bpm | tap hop le chung 13007/13007
+Da ghi khaosat_vitri_a320.json
+Kiem tra a=192 so voi E1: {'chenh_lech_mae_lon_nhat': 0.0, 'khop': True}
+a= 64  tuyen_tinh 1.0185  spline 2.2336  lap_chu_ky 1.0324  mo_hinh_chinh[ 0.5268  e2a_bo_lstm[e2 0.6875  e2b_lam0[e4_la 0.5314  e2c_them_acc[e 0.5378
+a=128  tuyen_tinh 1.0027  spline 2.2588  lap_chu_ky 0.9861  mo_hinh_chinh[ 0.5102  e2a_bo_lstm[e2 0.6838  e2b_lam0[e4_la 0.5147  e2c_them_acc[e 0.5177
+a=192  tuyen_tinh 1.0081  spline 2.2144  lap_chu_ky 0.9712  mo_hinh_chinh[ 0.5079  e2a_bo_lstm[e2 0.6809  e2b_lam0[e4_la 0.5121  e2c_them_acc[e 0.5151
+a=256  tuyen_tinh 1.0028  spline 2.2546  lap_chu_ky 0.9722  mo_hinh_chinh[ 0.5121  e2a_bo_lstm[e2 0.6842  e2b_lam0[e4_la 0.5158  e2c_them_acc[e 0.5172
+a=320  tuyen_tinh 1.0178  spline 2.2391  lap_chu_ky 0.9769  mo_hinh_chinh[ 0.5297  e2a_bo_lstm[e2 0.6876  e2b_lam0[e4_la 0.5326  e2c_them_acc[e 0.5348
+Da ghi results/khaosat_vitri.json

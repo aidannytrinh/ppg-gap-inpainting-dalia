@@ -1,0 +1,130 @@
+[12:03:42] Doi chay_e5.py (PID 10212) ket thuc...
+^C[12:26:21] Doi chay_e5.py (PID 17048) ket thuc...
+[11:08:05] Doi chay_e5.py (PID 23564) ket thuc...
+[07:54:25] Doi chay_e5.py (PID 23992) ket thuc...
+[12:31:36] Doi chay_e5.py (PID 5940) ket thuc...
+[00:20:52] Doi chay_e5.py (PID 18448) ket thuc...
+[00:29:42] Doi chay_e5.py (PID 10196) ket thuc...
+[01:16:46] chay_e5.py da ket thuc.
+[01:16:46] BAT DAU bench.py
+{
+  "mo_hinh": "e4_lam0.5",
+  "moi_truong": {
+    "cpu": "12th Gen Intel(R) Core(TM) i7-12700H",
+    "so_luong_torch": 14,
+    "so_nhan_logic": 20,
+    "he_dieu_hanh": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.7",
+    "torch": "2.12.0+cpu",
+    "kieu_so": "torch.float32",
+    "batch": 1,
+    "che_do": "eval + inference_mode",
+    "khoi_dong": 100,
+    "so_lan_do": 1000
+  },
+  "thoi_gian_chi_mo_hinh": {
+    "trung_vi_ms": 8.3345,
+    "p95_ms": 11.9945,
+    "trung_binh_ms": 10.166
+  },
+  "thoi_gian_toan_pipeline": {
+    "trung_vi_ms": 9.3397,
+    "p95_ms": 9.8767,
+    "trung_binh_ms": 9.3507
+  },
+  "tham_so": 117233,
+  "kich_thuoc_trong_so_kb": 463.9,
+  "ram_cuc_dai_tien_trinh_mb": 208.7,
+  "do_tre_cho_ngu_canh": {
+    "ghi_chu": "tinh tu giao thuc khoang thieu co dinh 192..319, khong phai thoi gian tinh",
+    "giay_cho_sau_khi_het_khoang_mat": 3.0,
+    "giay_tu_luc_bat_dau_mat": 5.0
+  },
+  "gioi_han": "Do tren may tinh ca nhan, khong thay the thu nghiem tren thiet bi deo."
+}
+[01:17:15] XONG bench.py, ma thoat 0
+[01:17:15] BAT DAU figures.py
+{
+  "tốt": {
+    "phan_vi": 5,
+    "sid": 13,
+    "cua_so": 2841,
+    "mae_mo_hinh": 0.1341,
+    "mae_lap_chu_ky": 0.3598
+  },
+  "trung vị": {
+    "phan_vi": 50,
+    "sid": 15,
+    "cua_so": 2805,
+    "mae_mo_hinh": 0.4345,
+    "mae_lap_chu_ky": 0.4639
+  },
+  "kém": {
+    "phan_vi": 95,
+    "sid": 15,
+    "cua_so": 2972,
+    "mae_mo_hinh": 1.1291,
+    "mae_lap_chu_ky": 1.5465
+  }
+}
+Da ghi hinh vao D:\nam4_ky1\AI_4_IOT\Module 5 - PROJECT\G6\figs
+[01:17:17] XONG figures.py, ma thoat 0
+[01:17:17] BAT DAU xuat_bang.py
+Da ghi bang_doichuan_val_theo_doituong.csv (3 dong)
+Da ghi nhatky_thatbai_doichuan_val.csv (khong co truong hop that bai nao)
+Da ghi bang_e1_test_theo_doituong.csv (4 dong)
+Da ghi bang_e1_test_theo_hoatdong.csv (10 dong)
+Da ghi nhatky_thatbai_e1_test.csv (khong co truong hop that bai nao)
+Da ghi bang_e5_f1_test_theo_doituong.csv (4 dong)
+Da ghi nhatky_thatbai_e5_f1_test.csv (khong co truong hop that bai nao)
+Da ghi bang_e5_f2_test_theo_doituong.csv (4 dong)
+Da ghi nhatky_thatbai_e5_f2_test.csv (1 dong)
+Da ghi bang_e5_f3_test_theo_doituong.csv (4 dong)
+Da ghi nhatky_thatbai_e5_f3_test.csv (7 dong)
+Da ghi bang_e5_f4_test_theo_doituong.csv (4 dong)
+Da ghi nhatky_thatbai_e5_f4_test.csv (khong co truong hop that bai nao)
+Da ghi bang_e5_f5_test_theo_doituong.csv (4 dong)
+Da ghi nhatky_thatbai_e5_f5_test.csv (khong co truong hop that bai nao)
+{
+  "doichuan_val": {
+    "so_cua_so": 8475,
+    "so_truong_hop": 0,
+    "theo_ly_do": {}
+  },
+  "e1_test": {
+    "so_cua_so": 13007,
+    "so_truong_hop": 0,
+    "theo_ly_do": {}
+  },
+  "e5_f1_test": {
+    "so_cua_so": 13069,
+    "so_truong_hop": 0,
+    "theo_ly_do": {}
+  },
+  "e5_f2_test": {
+    "so_cua_so": 11843,
+    "so_truong_hop": 1,
+    "theo_ly_do": {
+      "dung du phong: lap_chu_ky": 1
+    }
+  },
+  "e5_f3_test": {
+    "so_cua_so": 12982,
+    "so_truong_hop": 7,
+    "theo_ly_do": {
+      "dung du phong: lap_chu_ky": 7
+    }
+  },
+  "e5_f4_test": {
+    "so_cua_so": 13796,
+    "so_truong_hop": 0,
+    "theo_ly_do": {}
+  },
+  "e5_f5_test": {
+    "so_cua_so": 13007,
+    "so_truong_hop": 0,
+    "theo_ly_do": {}
+  }
+}
+[01:17:18] XONG xuat_bang.py, ma thoat 0
+[01:17:18] HOAN TAT: bench, hinh, bang da cap nhat.

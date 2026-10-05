@@ -1,0 +1,12 @@
+{
+  "thoi_diem": "2026-10-04T15:21:22",
+  "e2a_bo_lstm": "e2a_nolstm_lam1",
+  "e2c_them_acc": "e2c_acc_lam1",
+  "thay_cho": {
+    "e2a_bo_lstm": "e2a_nolstm_lam0",
+    "e2c_them_acc": "e2c_acc_lam0.5"
+  },
+  "mo_hinh_chinh_khong_doi": "e4_lam0.5",
+  "e2b_lam0_khong_doi": "e4_lam0",
+  "ghi_chu": "Bo sung sau thoi diem khoa goc 2026-09-24T09:52:04. Chon lambda cho hai ban boc tach tren du luoi {0; 0,1; 0,5; 1} theo quy tac chot truoc trong e2_bo_sung_quy_tac.json, chi dung MAE validation, khong dung so lieu test. Mo hinh chinh, E4, E5 khong doi."
+}

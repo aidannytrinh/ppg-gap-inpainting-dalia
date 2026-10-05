@@ -1,0 +1,5 @@
+﻿doi_tuong,tuyen_tinh|mae,tuyen_tinh|rmse,tuyen_tinh|mae_hr_pres,tuyen_tinh|mae_hr_ecg,spline|mae,spline|rmse,spline|mae_hr_pres,spline|mae_hr_ecg,lap_chu_ky|mae,lap_chu_ky|rmse,lap_chu_ky|mae_hr_pres,lap_chu_ky|mae_hr_ecg,mo_hinh|mae,mo_hinh|rmse,mo_hinh|mae_hr_pres,mo_hinh|mae_hr_ecg
+S1,0.9844,1.2267,14.272,11.083,2.1235,2.5764,14.492,11.146,1.0044,1.2519,6.205,12.278,0.5434,0.7103,4.034,7.727
+S2,0.9996,1.2527,16.087,13.48,2.5003,2.9994,15.278,12.833,0.9936,1.255,6.113,11.11,0.5586,0.733,3.913,7.678
+S3,0.9909,1.2321,16.429,18.523,2.123,2.5726,16.476,18.542,0.9717,1.2159,5.137,8.082,0.5021,0.6531,2.744,6.352
+gop deu (macro),0.9916,1.2372,15.596,14.362,2.2489,2.7162,15.415,14.174,0.9899,1.2409,5.818,10.49,0.5347,0.6988,3.563,7.252

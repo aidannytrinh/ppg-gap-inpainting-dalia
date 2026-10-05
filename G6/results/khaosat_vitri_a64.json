@@ -1,0 +1,289 @@
+{
+  "so_cua_so": 13007,
+  "so_doi_tuong": 3,
+  "tap_hop_le_chung": 13007,
+  "ty_le_hop_le_chung": 1.0,
+  "sai_so_nen_bo_doc": {
+    "mae_macro": 6.988,
+    "theo_doi_tuong": {
+      "13": 6.06,
+      "14": 6.628,
+      "15": 8.277
+    }
+  },
+  "tuyen_tinh": {
+    "mae_macro": 1.0185,
+    "rmse_macro": 1.2623,
+    "mae_theo_doi_tuong": {
+      "13": 1.0235,
+      "14": 1.0195,
+      "15": 1.0126
+    },
+    "rmse_theo_doi_tuong": {
+      "13": 1.2624,
+      "14": 1.262,
+      "15": 1.2624
+    },
+    "mae_hr_pres": 15.879,
+    "mae_hr_ecg": 16.845,
+    "mae_hr_pres_theo_doi_tuong": {
+      "13": 16.84,
+      "14": 16.421,
+      "15": 14.375
+    },
+    "mae_hr_ecg_theo_doi_tuong": {
+      "13": 17.664,
+      "14": 18.883,
+      "15": 13.988
+    },
+    "ty_le_doc_duoc_hr": 1.0,
+    "ty_le_du_phong": 0.0
+  },
+  "spline": {
+    "mae_macro": 2.2336,
+    "rmse_macro": 2.6907,
+    "mae_theo_doi_tuong": {
+      "13": 2.3575,
+      "14": 2.2312,
+      "15": 2.1121
+    },
+    "rmse_theo_doi_tuong": {
+      "13": 2.8293,
+      "14": 2.6812,
+      "15": 2.5616
+    },
+    "mae_hr_pres": 15.766,
+    "mae_hr_ecg": 16.741,
+    "mae_hr_pres_theo_doi_tuong": {
+      "13": 16.698,
+      "14": 16.272,
+      "15": 14.33
+    },
+    "mae_hr_ecg_theo_doi_tuong": {
+      "13": 17.492,
+      "14": 18.787,
+      "15": 13.943
+    },
+    "ty_le_doc_duoc_hr": 1.0,
+    "ty_le_du_phong": 0.0
+  },
+  "lap_chu_ky": {
+    "mae_macro": 1.0324,
+    "rmse_macro": 1.2782,
+    "mae_theo_doi_tuong": {
+      "13": 1.0179,
+      "14": 1.0249,
+      "15": 1.0543
+    },
+    "rmse_theo_doi_tuong": {
+      "13": 1.2571,
+      "14": 1.2682,
+      "15": 1.3094
+    },
+    "mae_hr_pres": 10.935,
+    "mae_hr_ecg": 13.314,
+    "mae_hr_pres_theo_doi_tuong": {
+      "13": 10.482,
+      "14": 11.068,
+      "15": 11.254
+    },
+    "mae_hr_ecg_theo_doi_tuong": {
+      "13": 12.496,
+      "14": 13.819,
+      "15": 13.627
+    },
+    "ty_le_doc_duoc_hr": 1.0,
+    "ty_le_du_phong": 0.5337
+  },
+  "mo_hinh_chinh[e4_lam0.5]": {
+    "mae_macro": 0.5268,
+    "rmse_macro": 0.6824,
+    "mae_theo_doi_tuong": {
+      "13": 0.5054,
+      "14": 0.5196,
+      "15": 0.5555
+    },
+    "rmse_theo_doi_tuong": {
+      "13": 0.6558,
+      "14": 0.6713,
+      "15": 0.7202
+    },
+    "mae_hr_pres": 3.168,
+    "mae_hr_ecg": 6.741,
+    "mae_hr_pres_theo_doi_tuong": {
+      "13": 2.317,
+      "14": 3.102,
+      "15": 4.085
+    },
+    "mae_hr_ecg_theo_doi_tuong": {
+      "13": 5.454,
+      "14": 6.844,
+      "15": 7.925
+    },
+    "ty_le_doc_duoc_hr": 1.0,
+    "ty_le_du_phong": 0.0
+  },
+  "e2a_bo_lstm[e2a_nolstm_lam1]": {
+    "mae_macro": 0.6873,
+    "rmse_macro": 0.8873,
+    "mae_theo_doi_tuong": {
+      "13": 0.6856,
+      "14": 0.6896,
+      "15": 0.6867
+    },
+    "rmse_theo_doi_tuong": {
+      "13": 0.8815,
+      "14": 0.8897,
+      "15": 0.8906
+    },
+    "mae_hr_pres": 7.807,
+    "mae_hr_ecg": 10.437,
+    "mae_hr_pres_theo_doi_tuong": {
+      "13": 8.274,
+      "14": 8.093,
+      "15": 7.053
+    },
+    "mae_hr_ecg_theo_doi_tuong": {
+      "13": 10.552,
+      "14": 11.411,
+      "15": 9.347
+    },
+    "ty_le_doc_duoc_hr": 1.0,
+    "ty_le_du_phong": 0.0
+  },
+  "e2b_lam0[e4_lam0]": {
+    "mae_macro": 0.5314,
+    "rmse_macro": 0.685,
+    "mae_theo_doi_tuong": {
+      "13": 0.5111,
+      "14": 0.5252,
+      "15": 0.558
+    },
+    "rmse_theo_doi_tuong": {
+      "13": 0.6598,
+      "14": 0.6754,
+      "15": 0.7199
+    },
+    "mae_hr_pres": 3.135,
+    "mae_hr_ecg": 6.684,
+    "mae_hr_pres_theo_doi_tuong": {
+      "13": 2.389,
+      "14": 3.052,
+      "15": 3.963
+    },
+    "mae_hr_ecg_theo_doi_tuong": {
+      "13": 5.407,
+      "14": 6.703,
+      "15": 7.942
+    },
+    "ty_le_doc_duoc_hr": 1.0,
+    "ty_le_du_phong": 0.0
+  },
+  "e2c_them_acc[e2c_acc_lam1]": {
+    "mae_macro": 0.537,
+    "rmse_macro": 0.6924,
+    "mae_theo_doi_tuong": {
+      "13": 0.5193,
+      "14": 0.5263,
+      "15": 0.5653
+    },
+    "rmse_theo_doi_tuong": {
+      "13": 0.6698,
+      "14": 0.6777,
+      "15": 0.7297
+    },
+    "mae_hr_pres": 3.123,
+    "mae_hr_ecg": 6.737,
+    "mae_hr_pres_theo_doi_tuong": {
+      "13": 2.35,
+      "14": 3.022,
+      "15": 3.996
+    },
+    "mae_hr_ecg_theo_doi_tuong": {
+      "13": 5.491,
+      "14": 6.763,
+      "15": 7.955
+    },
+    "ty_le_doc_duoc_hr": 1.0,
+    "ty_le_du_phong": 0.0
+  },
+  "ghep_cap_so_voi_lap_chu_ky": {
+    "tuyen_tinh": {
+      "so_voi": "lap_chu_ky",
+      "theo_doi_tuong": {
+        "13": 0.0055,
+        "14": -0.0054,
+        "15": -0.0416
+      },
+      "trung_binh": -0.0138,
+      "so_doi_tuong_tot_hon": 2,
+      "tong_doi_tuong": 3
+    },
+    "spline": {
+      "so_voi": "lap_chu_ky",
+      "theo_doi_tuong": {
+        "13": 1.3396,
+        "14": 1.2063,
+        "15": 1.0578
+      },
+      "trung_binh": 1.2012,
+      "so_doi_tuong_tot_hon": 0,
+      "tong_doi_tuong": 3
+    },
+    "mo_hinh_chinh[e4_lam0.5]": {
+      "so_voi": "lap_chu_ky",
+      "theo_doi_tuong": {
+        "13": -0.5125,
+        "14": -0.5053,
+        "15": -0.4987
+      },
+      "trung_binh": -0.5055,
+      "so_doi_tuong_tot_hon": 3,
+      "tong_doi_tuong": 3
+    },
+    "e2a_bo_lstm[e2a_nolstm_lam1]": {
+      "so_voi": "lap_chu_ky",
+      "theo_doi_tuong": {
+        "13": -0.3324,
+        "14": -0.3353,
+        "15": -0.3675
+      },
+      "trung_binh": -0.3451,
+      "so_doi_tuong_tot_hon": 3,
+      "tong_doi_tuong": 3
+    },
+    "e2b_lam0[e4_lam0]": {
+      "so_voi": "lap_chu_ky",
+      "theo_doi_tuong": {
+        "13": -0.5068,
+        "14": -0.4997,
+        "15": -0.4962
+      },
+      "trung_binh": -0.5009,
+      "so_doi_tuong_tot_hon": 3,
+      "tong_doi_tuong": 3
+    },
+    "e2c_them_acc[e2c_acc_lam1]": {
+      "so_voi": "lap_chu_ky",
+      "theo_doi_tuong": {
+        "13": -0.4986,
+        "14": -0.4986,
+        "15": -0.489
+      },
+      "trung_binh": -0.4954,
+      "so_doi_tuong_tot_hon": 3,
+      "tong_doi_tuong": 3
+    }
+  },
+  "vi_tri": {
+    "a": 64,
+    "b": 191,
+    "mau_quan_sat_truoc": 64,
+    "mau_quan_sat_sau": 320
+  },
+  "cua_so_khong_du_dieu_kien": {
+    "13": 0,
+    "14": 0,
+    "15": 0
+  }
+}

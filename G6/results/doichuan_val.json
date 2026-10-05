@@ -1,0 +1,107 @@
+{
+  "so_cua_so": 8475,
+  "so_doi_tuong": 2,
+  "tap_hop_le_chung": 8475,
+  "ty_le_hop_le_chung": 1.0,
+  "sai_so_nen_bo_doc": {
+    "mae_macro": 10.913,
+    "theo_doi_tuong": {
+      "11": 12.129,
+      "12": 9.697
+    }
+  },
+  "tuyen_tinh": {
+    "mae_macro": 1.0108,
+    "rmse_macro": 1.2582,
+    "mae_theo_doi_tuong": {
+      "11": 1.0197,
+      "12": 1.0019
+    },
+    "rmse_theo_doi_tuong": {
+      "11": 1.261,
+      "12": 1.2553
+    },
+    "mae_hr_pres": 15.366,
+    "mae_hr_ecg": 19.182,
+    "mae_hr_pres_theo_doi_tuong": {
+      "11": 17.786,
+      "12": 12.946
+    },
+    "mae_hr_ecg_theo_doi_tuong": {
+      "11": 27.955,
+      "12": 10.409
+    },
+    "ty_le_doc_duoc_hr": 1.0,
+    "ty_le_du_phong": 0.0
+  },
+  "spline": {
+    "mae_macro": 2.1675,
+    "rmse_macro": 2.6193,
+    "mae_theo_doi_tuong": {
+      "11": 2.4208,
+      "12": 1.9142
+    },
+    "rmse_theo_doi_tuong": {
+      "11": 2.8915,
+      "12": 2.3471
+    },
+    "mae_hr_pres": 15.468,
+    "mae_hr_ecg": 19.175,
+    "mae_hr_pres_theo_doi_tuong": {
+      "11": 17.667,
+      "12": 13.269
+    },
+    "mae_hr_ecg_theo_doi_tuong": {
+      "11": 27.791,
+      "12": 10.559
+    },
+    "ty_le_doc_duoc_hr": 1.0,
+    "ty_le_du_phong": 0.0
+  },
+  "lap_chu_ky": {
+    "mae_macro": 0.9941,
+    "rmse_macro": 1.2408,
+    "mae_theo_doi_tuong": {
+      "11": 0.9766,
+      "12": 1.0116
+    },
+    "rmse_theo_doi_tuong": {
+      "11": 1.2148,
+      "12": 1.2668
+    },
+    "mae_hr_pres": 6.126,
+    "mae_hr_ecg": 12.699,
+    "mae_hr_pres_theo_doi_tuong": {
+      "11": 5.306,
+      "12": 6.945
+    },
+    "mae_hr_ecg_theo_doi_tuong": {
+      "11": 12.402,
+      "12": 12.995
+    },
+    "ty_le_doc_duoc_hr": 1.0,
+    "ty_le_du_phong": 0.0
+  },
+  "ghep_cap_so_voi_lap_chu_ky": {
+    "tuyen_tinh": {
+      "so_voi": "lap_chu_ky",
+      "theo_doi_tuong": {
+        "11": 0.0431,
+        "12": -0.0097
+      },
+      "trung_binh": 0.0167,
+      "so_doi_tuong_tot_hon": 1,
+      "tong_doi_tuong": 2
+    },
+    "spline": {
+      "so_voi": "lap_chu_ky",
+      "theo_doi_tuong": {
+        "11": 1.4441,
+        "12": 0.9026
+      },
+      "trung_binh": 1.1733,
+      "so_doi_tuong_tot_hon": 0,
+      "tong_doi_tuong": 2
+    }
+  }
+}

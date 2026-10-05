@@ -1,0 +1,186 @@
+Danh gia tren tap test: S13, S14, S15 | phuong phap: ['tuyen_tinh', 'spline', 'lap_chu_ky', 'mo_hinh_chinh[e4_lam0.5]', 'e2a_bo_lstm[e2a_nolstm_lam1]', 'e2b_lam0[e4_lam0]', 'e2c_them_acc[e2c_acc_lam1]']
+  S13: 4565 cua so, 7 phuong phap
+  S14: 4476 cua so, 7 phuong phap
+  S15: 3966 cua so, 7 phuong phap
+Da ghi: e1_test.json, e1_test_theo_cuaso.csv, e1_test_dudoan_gap.npz
+
+phuong phap                 MAE     RMSE  MAE_HR_pr MAE_HR_ECG du_phong
+tuyen_tinh               1.0081   1.2493     15.865     16.812     0.0%
+spline                   2.2144   2.6672     15.896     16.836     0.0%
+lap_chu_ky               0.9712   1.2118      5.146      8.994     0.0%
+mo_hinh_chinh[e4_lam0.5]   0.5079   0.6588      2.990      6.607     0.0%
+e2a_bo_lstm[e2a_nolstm_lam1]   0.6808   0.8791      7.759     10.472     0.0%
+e2b_lam0[e4_lam0]        0.5121   0.6611      2.986      6.607     0.0%
+e2c_them_acc[e2c_acc_lam1]   0.5142   0.6645      2.939      6.595     0.0%
+Sai so nen bo doc H(PPG day du) so ECG: 6.988 bpm | tap hop le chung 13007/13007
+Vi tri a=64: khoang thieu 64..191 | cua so khong du dieu kien: {13: 0, 14: 0, 15: 0}
+  S13: 4565 cua so, 7 phuong phap
+  S14: 4476 cua so, 7 phuong phap
+  S15: 3966 cua so, 7 phuong phap
+
+phuong phap                 MAE     RMSE  MAE_HR_pr MAE_HR_ECG du_phong
+tuyen_tinh               1.0185   1.2623     15.879     16.845     0.0%
+spline                   2.2336   2.6907     15.766     16.741     0.0%
+lap_chu_ky               1.0324   1.2782     10.935     13.314    53.4%
+mo_hinh_chinh[e4_lam0.5]   0.5268   0.6824      3.168      6.741     0.0%
+e2a_bo_lstm[e2a_nolstm_lam1]   0.6873   0.8873      7.807     10.437     0.0%
+e2b_lam0[e4_lam0]        0.5314   0.6850      3.135      6.684     0.0%
+e2c_them_acc[e2c_acc_lam1]   0.5370   0.6924      3.123      6.737     0.0%
+Sai so nen bo doc H(PPG day du) so ECG: 6.988 bpm | tap hop le chung 13007/13007
+Da ghi khaosat_vitri_a64.json
+Vi tri a=128: khoang thieu 128..255 | cua so khong du dieu kien: {13: 0, 14: 0, 15: 0}
+  S13: 4565 cua so, 7 phuong phap
+  S14: 4476 cua so, 7 phuong phap
+  S15: 3966 cua so, 7 phuong phap
+
+phuong phap                 MAE     RMSE  MAE_HR_pr MAE_HR_ECG du_phong
+tuyen_tinh               1.0027   1.2446     15.855     16.822     0.0%
+spline                   2.2588   2.7210     15.861     16.811     0.0%
+lap_chu_ky               0.9861   1.2287      5.297      9.073     1.7%
+mo_hinh_chinh[e4_lam0.5]   0.5102   0.6622      3.030      6.652     0.0%
+e2a_bo_lstm[e2a_nolstm_lam1]   0.6839   0.8826      7.777     10.448     0.0%
+e2b_lam0[e4_lam0]        0.5147   0.6646      3.009      6.592     0.0%
+e2c_them_acc[e2c_acc_lam1]   0.5172   0.6681      2.933      6.633     0.0%
+Sai so nen bo doc H(PPG day du) so ECG: 6.988 bpm | tap hop le chung 13007/13007
+Da ghi khaosat_vitri_a128.json
+Vi tri a=192: khoang thieu 192..319 | cua so khong du dieu kien: {13: 0, 14: 0, 15: 0}
+  S13: 4565 cua so, 7 phuong phap
+  S14: 4476 cua so, 7 phuong phap
+  S15: 3966 cua so, 7 phuong phap
+
+phuong phap                 MAE     RMSE  MAE_HR_pr MAE_HR_ECG du_phong
+tuyen_tinh               1.0081   1.2493     15.865     16.812     0.0%
+spline                   2.2144   2.6672     15.896     16.836     0.0%
+lap_chu_ky               0.9712   1.2118      5.146      8.994     0.0%
+mo_hinh_chinh[e4_lam0.5]   0.5079   0.6588      2.990      6.607     0.0%
+e2a_bo_lstm[e2a_nolstm_lam1]   0.6808   0.8791      7.759     10.472     0.0%
+e2b_lam0[e4_lam0]        0.5121   0.6611      2.986      6.607     0.0%
+e2c_them_acc[e2c_acc_lam1]   0.5142   0.6645      2.939      6.595     0.0%
+Sai so nen bo doc H(PPG day du) so ECG: 6.988 bpm | tap hop le chung 13007/13007
+Da ghi khaosat_vitri_a192.json
+Vi tri a=256: khoang thieu 256..383 | cua so khong du dieu kien: {13: 0, 14: 0, 15: 0}
+  S13: 4565 cua so, 7 phuong phap
+  S14: 4476 cua so, 7 phuong phap
+  S15: 3966 cua so, 7 phuong phap
+
+phuong phap                 MAE     RMSE  MAE_HR_pr MAE_HR_ECG du_phong
+tuyen_tinh               1.0028   1.2450     15.809     16.765     0.0%
+spline                   2.2546   2.7160     15.891     16.839     0.0%
+lap_chu_ky               0.9722   1.2137      5.136      8.970     0.0%
+mo_hinh_chinh[e4_lam0.5]   0.5121   0.6645      3.014      6.632     0.0%
+e2a_bo_lstm[e2a_nolstm_lam1]   0.6843   0.8833      7.710     10.473     0.0%
+e2b_lam0[e4_lam0]        0.5158   0.6661      3.019      6.629     0.0%
+e2c_them_acc[e2c_acc_lam1]   0.5172   0.6684      2.918      6.659     0.0%
+Sai so nen bo doc H(PPG day du) so ECG: 6.988 bpm | tap hop le chung 13007/13007
+Da ghi khaosat_vitri_a256.json
+Vi tri a=320: khoang thieu 320..447 | cua so khong du dieu kien: {13: 0, 14: 0, 15: 0}
+  S13: 4565 cua so, 7 phuong phap
+  S14: 4476 cua so, 7 phuong phap
+  S15: 3966 cua so, 7 phuong phap
+
+phuong phap                 MAE     RMSE  MAE_HR_pr MAE_HR_ECG du_phong
+tuyen_tinh               1.0178   1.2617     15.425     16.450     0.0%
+spline                   2.2391   2.6967     15.734     16.718     0.0%
+lap_chu_ky               0.9769   1.2193      5.146      8.981     0.0%
+mo_hinh_chinh[e4_lam0.5]   0.5297   0.6862      3.141      6.777     0.0%
+e2a_bo_lstm[e2a_nolstm_lam1]   0.6874   0.8873      7.732     10.510     0.0%
+e2b_lam0[e4_lam0]        0.5326   0.6868      3.152      6.756     0.0%
+e2c_them_acc[e2c_acc_lam1]   0.5350   0.6907      3.119      6.816     0.0%
+Sai so nen bo doc H(PPG day du) so ECG: 6.988 bpm | tap hop le chung 13007/13007
+Da ghi khaosat_vitri_a320.json
+Kiem tra a=192 so voi E1: {'chenh_lech_mae_lon_nhat': 0.0, 'khop': True}
+a= 64  tuyen_tinh 1.0185  spline 2.2336  lap_chu_ky 1.0324  mo_hinh_chinh[ 0.5268  e2a_bo_lstm[e2 0.6873  e2b_lam0[e4_la 0.5314  e2c_them_acc[e 0.5370
+a=128  tuyen_tinh 1.0027  spline 2.2588  lap_chu_ky 0.9861  mo_hinh_chinh[ 0.5102  e2a_bo_lstm[e2 0.6839  e2b_lam0[e4_la 0.5147  e2c_them_acc[e 0.5172
+a=192  tuyen_tinh 1.0081  spline 2.2144  lap_chu_ky 0.9712  mo_hinh_chinh[ 0.5079  e2a_bo_lstm[e2 0.6808  e2b_lam0[e4_la 0.5121  e2c_them_acc[e 0.5142
+a=256  tuyen_tinh 1.0028  spline 2.2546  lap_chu_ky 0.9722  mo_hinh_chinh[ 0.5121  e2a_bo_lstm[e2 0.6843  e2b_lam0[e4_la 0.5158  e2c_them_acc[e 0.5172
+a=320  tuyen_tinh 1.0178  spline 2.2391  lap_chu_ky 0.9769  mo_hinh_chinh[ 0.5297  e2a_bo_lstm[e2 0.6874  e2b_lam0[e4_la 0.5326  e2c_them_acc[e 0.5350
+Da ghi results/khaosat_vitri.json
+tuyen_tinh                       lech TB  -15.88 | thap hon 0.973 | cao hon 0.003
+spline                           lech TB  -15.90 | thap hon 0.973 | cao hon 0.004
+lap_chu_ky                       lech TB   +2.48 | thap hon 0.143 | cao hon 0.352
+mo_hinh_chinh[e4_lam0.5]         lech TB   -1.34 | thap hon 0.208 | cao hon 0.090
+e2a_bo_lstm[e2a_nolstm_lam1]     lech TB   -7.43 | thap hon 0.662 | cao hon 0.025
+e2b_lam0[e4_lam0]                lech TB   -1.36 | thap hon 0.211 | cao hon 0.089
+e2c_them_acc[e2c_acc_lam1]       lech TB   -1.28 | thap hon 0.209 | cao hon 0.092
+Da ghi results/e1_lech_hr.json
+Da ghi bang_doichuan_val_theo_doituong.csv (3 dong)
+Da ghi nhatky_thatbai_doichuan_val.csv (khong co truong hop that bai nao)
+Da ghi bang_e1_test_theo_doituong.csv (4 dong)
+Da ghi bang_e1_test_theo_hoatdong.csv (10 dong)
+Da ghi nhatky_thatbai_e1_test.csv (khong co truong hop that bai nao)
+Da ghi bang_e5_f1_test_theo_doituong.csv (4 dong)
+Da ghi nhatky_thatbai_e5_f1_test.csv (khong co truong hop that bai nao)
+Da ghi bang_e5_f2_test_theo_doituong.csv (4 dong)
+Da ghi nhatky_thatbai_e5_f2_test.csv (1 dong)
+Da ghi bang_e5_f3_test_theo_doituong.csv (4 dong)
+Da ghi nhatky_thatbai_e5_f3_test.csv (7 dong)
+Da ghi bang_e5_f4_test_theo_doituong.csv (4 dong)
+Da ghi nhatky_thatbai_e5_f4_test.csv (khong co truong hop that bai nao)
+Da ghi bang_e5_f5_test_theo_doituong.csv (4 dong)
+Da ghi nhatky_thatbai_e5_f5_test.csv (khong co truong hop that bai nao)
+{
+  "doichuan_val": {
+    "so_cua_so": 8475,
+    "so_truong_hop": 0,
+    "theo_ly_do": {}
+  },
+  "e1_test": {
+    "so_cua_so": 13007,
+    "so_truong_hop": 0,
+    "theo_ly_do": {}
+  },
+  "e5_f1_test": {
+    "so_cua_so": 13069,
+    "so_truong_hop": 0,
+    "theo_ly_do": {}
+  },
+  "e5_f2_test": {
+    "so_cua_so": 11843,
+    "so_truong_hop": 1,
+    "theo_ly_do": {
+      "dung du phong: lap_chu_ky": 1
+    }
+  },
+  "e5_f3_test": {
+    "so_cua_so": 12982,
+    "so_truong_hop": 7,
+    "theo_ly_do": {
+      "dung du phong: lap_chu_ky": 7
+    }
+  },
+  "e5_f4_test": {
+    "so_cua_so": 13796,
+    "so_truong_hop": 0,
+    "theo_ly_do": {}
+  },
+  "e5_f5_test": {
+    "so_cua_so": 13007,
+    "so_truong_hop": 0,
+    "theo_ly_do": {}
+  }
+}
+{
+  "tốt": {
+    "phan_vi": 5,
+    "sid": 13,
+    "cua_so": 2841,
+    "mae_mo_hinh": 0.1341,
+    "mae_lap_chu_ky": 0.3598
+  },
+  "trung vị": {
+    "phan_vi": 50,
+    "sid": 15,
+    "cua_so": 2805,
+    "mae_mo_hinh": 0.4345,
+    "mae_lap_chu_ky": 0.4639
+  },
+  "kém": {
+    "phan_vi": 95,
+    "sid": 15,
+    "cua_so": 2972,
+    "mae_mo_hinh": 1.1291,
+    "mae_lap_chu_ky": 1.5465
+  }
+}
+Da ghi hinh vao D:\nam4_ky1\AI_4_IOT\Module 5 - PROJECT\G6\figs
+HOAN_TAT_DANH_GIA_LAI 

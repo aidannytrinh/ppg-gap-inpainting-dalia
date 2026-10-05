@@ -1,0 +1,43 @@
+{
+  "tap": "test S13-S15 (E1)",
+  "so_cua_so": 13007,
+  "nguong_bpm": 0.5,
+  "day_du_tru_ecg_trung_binh": -0.47,
+  "phuong_phap": {
+    "tuyen_tinh": {
+      "lech_trung_binh": -15.876,
+      "ty_le_thap_hon": 0.9727,
+      "ty_le_cao_hon": 0.0034
+    },
+    "spline": {
+      "lech_trung_binh": -15.898,
+      "ty_le_thap_hon": 0.973,
+      "ty_le_cao_hon": 0.0036
+    },
+    "lap_chu_ky": {
+      "lech_trung_binh": 2.483,
+      "ty_le_thap_hon": 0.143,
+      "ty_le_cao_hon": 0.352
+    },
+    "mo_hinh_chinh[e4_lam0.5]": {
+      "lech_trung_binh": -1.344,
+      "ty_le_thap_hon": 0.2081,
+      "ty_le_cao_hon": 0.0903
+    },
+    "e2a_bo_lstm[e2a_nolstm_lam1]": {
+      "lech_trung_binh": -7.429,
+      "ty_le_thap_hon": 0.6618,
+      "ty_le_cao_hon": 0.0249
+    },
+    "e2b_lam0[e4_lam0]": {
+      "lech_trung_binh": -1.364,
+      "ty_le_thap_hon": 0.2109,
+      "ty_le_cao_hon": 0.0891
+    },
+    "e2c_them_acc[e2c_acc_lam1]": {
+      "lech_trung_binh": -1.284,
+      "ty_le_thap_hon": 0.2088,
+      "ty_le_cao_hon": 0.0916
+    }
+  }
+}

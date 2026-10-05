@@ -1,0 +1,13 @@
+{
+  "thoi_diem_chot": "2026-10-04T16:57:39",
+  "ly_do": "Phan A: tren validation, mo hinh chinh vuot nguong 5% o muc cho 0,5 s (+10,4%) va 0 s (+29,7%), vi a = 352, 384 nam ngoai vung huan luyen 64..320. Dieu kien phan B trong caitien_dotre_quy_tac.json da thoa.",
+  "bien_the": {
+    "id": "caitien_amax384_lam0.5",
+    "khac_mo_hinh_chinh_duy_nhat": "vung dat mat na khi huan luyen a ngau nhien deu 64..384 (thay vi 64..320), va dung som theo MAE validation trung binh tren a = 320, 352, 384 (cac muc cho 1; 0,5; 0 s)",
+    "giu_nguyen": "kien truc, lambda = 0,5, seed 42, Adam 1e-3, batch 128, toi da 100 epoch, patience 10, ReduceLROnPlateau 0,5/5, du lieu train S1-S10, val S11-S12",
+    "so_luot": "1 luot duy nhat, khong do luoi, khong chinh theo test",
+    "moc_so_sanh_validation": "mo hinh chinh co MAE validation trung binh tren a = 320, 352, 384 bang 0,61886"
+  },
+  "quy_tac_dung": "Voi moi muc cho, khuyen nghi mo hinh co MAE validation thap hon (mo hinh chinh hoac bien the). Muc cho khuyen nghi chung = muc ngan nhat ma mo hinh duoc khuyen nghi o muc do co MAE validation khong vuot 5% so voi mo hinh chinh o 3 s (0,5406 -> nguong 0,5676) va tot hon lap chu ky tren validation. Test chi de bao cao.",
+  "khong_doi": "Mo hinh chinh, file khoa, E1-E5 giu nguyen; bien the chi xuat hien trong muc cai tien."
+}

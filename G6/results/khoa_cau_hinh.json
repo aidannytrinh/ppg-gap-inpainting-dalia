@@ -1,0 +1,22 @@
+{
+  "thoi_diem": "2026-09-24T09:52:04",
+  "mo_hinh_chinh": "e4_lam0.5",
+  "mae_val_e4": {
+    "e4_lam0": 0.5455610954264911,
+    "e4_lam0.1": 0.5445138687097797,
+    "e4_lam0.5": 0.5405858860158973,
+    "e4_lam1": 0.5415901429961301
+  },
+  "e2a_bo_lstm": "e2a_nolstm_lam0",
+  "mae_val_e2a": {
+    "e2a_nolstm_lam0": 0.6856810966326208,
+    "e2a_nolstm_lam0.5": 0.6862297034395282
+  },
+  "e2b_lam0": "e4_lam0",
+  "e2c_them_acc": "e2c_acc_lam0.5",
+  "mae_val_e2c": {
+    "e2c_acc_lam0": 0.5551468334229839,
+    "e2c_acc_lam0.5": 0.549589857962659
+  },
+  "ghi_chu": "Chot bang MAE validation macro. Sau thoi diem nay khong doi sieu tham so. Test chua duoc cham."
+}

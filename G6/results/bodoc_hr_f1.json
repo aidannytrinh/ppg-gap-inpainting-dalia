@@ -1,0 +1,285 @@
+{
+  "hr_max": 170,
+  "distance_mau": 23,
+  "prominence_ty_le": 0.2,
+  "ty_le_hop_le": 1.0,
+  "mae_nen": 10.136,
+  "nguon": "train + validation",
+  "doi_tuong": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    4,
+    5
+  ],
+  "so_cua_so": 51628,
+  "nguong_hop_le": 0.95,
+  "dai_thong": [
+    0.5,
+    8.0
+  ],
+  "bac_thiet_ke": 4,
+  "tieu_chi": "toi thieu MAE giua H(PPG day du) va nhan HR tu ECG",
+  "ghi_chu": "prominence tinh theo ty le voi do lech chuan cua so da loc, nen khong doi khi doi don vi bien do",
+  "bang": [
+    {
+      "hr_max": 150,
+      "distance_mau": 26,
+      "prominence_ty_le": 0.0,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 11.32
+    },
+    {
+      "hr_max": 150,
+      "distance_mau": 26,
+      "prominence_ty_le": 0.05,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 11.161
+    },
+    {
+      "hr_max": 150,
+      "distance_mau": 26,
+      "prominence_ty_le": 0.1,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 11.298
+    },
+    {
+      "hr_max": 150,
+      "distance_mau": 26,
+      "prominence_ty_le": 0.2,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 11.694
+    },
+    {
+      "hr_max": 150,
+      "distance_mau": 26,
+      "prominence_ty_le": 0.3,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 12.269
+    },
+    {
+      "hr_max": 150,
+      "distance_mau": 26,
+      "prominence_ty_le": 0.5,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 13.74
+    },
+    {
+      "hr_max": 160,
+      "distance_mau": 24,
+      "prominence_ty_le": 0.0,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 11.102
+    },
+    {
+      "hr_max": 160,
+      "distance_mau": 24,
+      "prominence_ty_le": 0.05,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 10.476
+    },
+    {
+      "hr_max": 160,
+      "distance_mau": 24,
+      "prominence_ty_le": 0.1,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 10.373
+    },
+    {
+      "hr_max": 160,
+      "distance_mau": 24,
+      "prominence_ty_le": 0.2,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 10.459
+    },
+    {
+      "hr_max": 160,
+      "distance_mau": 24,
+      "prominence_ty_le": 0.3,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 10.847
+    },
+    {
+      "hr_max": 160,
+      "distance_mau": 24,
+      "prominence_ty_le": 0.5,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 12.159
+    },
+    {
+      "hr_max": 170,
+      "distance_mau": 23,
+      "prominence_ty_le": 0.0,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 11.386
+    },
+    {
+      "hr_max": 170,
+      "distance_mau": 23,
+      "prominence_ty_le": 0.05,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 10.476
+    },
+    {
+      "hr_max": 170,
+      "distance_mau": 23,
+      "prominence_ty_le": 0.1,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 10.219
+    },
+    {
+      "hr_max": 170,
+      "distance_mau": 23,
+      "prominence_ty_le": 0.2,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 10.136
+    },
+    {
+      "hr_max": 170,
+      "distance_mau": 23,
+      "prominence_ty_le": 0.3,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 10.407
+    },
+    {
+      "hr_max": 170,
+      "distance_mau": 23,
+      "prominence_ty_le": 0.5,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 11.592
+    },
+    {
+      "hr_max": 180,
+      "distance_mau": 21,
+      "prominence_ty_le": 0.0,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 12.969
+    },
+    {
+      "hr_max": 180,
+      "distance_mau": 21,
+      "prominence_ty_le": 0.05,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 11.403
+    },
+    {
+      "hr_max": 180,
+      "distance_mau": 21,
+      "prominence_ty_le": 0.1,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 10.777
+    },
+    {
+      "hr_max": 180,
+      "distance_mau": 21,
+      "prominence_ty_le": 0.2,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 10.228
+    },
+    {
+      "hr_max": 180,
+      "distance_mau": 21,
+      "prominence_ty_le": 0.3,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 10.163
+    },
+    {
+      "hr_max": 180,
+      "distance_mau": 21,
+      "prominence_ty_le": 0.5,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 10.946
+    },
+    {
+      "hr_max": 190,
+      "distance_mau": 20,
+      "prominence_ty_le": 0.0,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 14.3
+    },
+    {
+      "hr_max": 190,
+      "distance_mau": 20,
+      "prominence_ty_le": 0.05,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 12.32
+    },
+    {
+      "hr_max": 190,
+      "distance_mau": 20,
+      "prominence_ty_le": 0.1,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 11.47
+    },
+    {
+      "hr_max": 190,
+      "distance_mau": 20,
+      "prominence_ty_le": 0.2,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 10.615
+    },
+    {
+      "hr_max": 190,
+      "distance_mau": 20,
+      "prominence_ty_le": 0.3,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 10.339
+    },
+    {
+      "hr_max": 190,
+      "distance_mau": 20,
+      "prominence_ty_le": 0.5,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 10.847
+    },
+    {
+      "hr_max": 200,
+      "distance_mau": 19,
+      "prominence_ty_le": 0.0,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 16.014
+    },
+    {
+      "hr_max": 200,
+      "distance_mau": 19,
+      "prominence_ty_le": 0.05,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 13.543
+    },
+    {
+      "hr_max": 200,
+      "distance_mau": 19,
+      "prominence_ty_le": 0.1,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 12.429
+    },
+    {
+      "hr_max": 200,
+      "distance_mau": 19,
+      "prominence_ty_le": 0.2,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 11.197
+    },
+    {
+      "hr_max": 200,
+      "distance_mau": 19,
+      "prominence_ty_le": 0.3,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 10.653
+    },
+    {
+      "hr_max": 200,
+      "distance_mau": 19,
+      "prominence_ty_le": 0.5,
+      "ty_le_hop_le": 1.0,
+      "mae_nen": 10.863
+    }
+  ]
+}

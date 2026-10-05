@@ -1,0 +1,7 @@
+{
+  "thoi_diem_chot": "2026-10-04T16:50:56",
+  "muc_dich": "Cai tien ngoai yeu cau de cuong: giam do tre cho ngu canh (muc 1.2, 4.5) bang cach dat doan mat muon hon trong cua so khi trien khai.",
+  "quy_tac_chon_muc_cho": "Chi dung VALIDATION (S11, S12). Muc cho khuyen nghi la muc cho ngan nhat ma (1) MAE validation macro cua mo hinh chinh khong vuot qua 5% so voi muc cho 3 giay (a = 192) va (2) mo hinh van tot hon lap chu ky tren validation o muc do. Test (S13-S15) chi dung de bao cao muc da chon.",
+  "dieu_kien_phan_B": "Neu o cac muc cho duoi 1 giay (a = 352, 384, ngoai vung huan luyen) MAE validation cua mo hinh chinh vuot qua nguong 5% thi moi can nhac huan luyen them mot bien the duoc huan luyen voi vi tri mat na rong hon; bien the do (neu co) cung chi chon bang validation va bao cao rieng.",
+  "khong_doi": "Mo hinh chinh, bo doc HR, file khoa, E1-E5 giu nguyen."
+}

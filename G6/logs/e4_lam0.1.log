@@ -1,0 +1,23 @@
+[e4_lam0.1] device=cpu | train S[1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | val S[11, 12] | lam=0.1 | lstm=True | acc=False
+  nap xong: train 43215 cua so, val 8475 cua so (18s)
+  ep   1  loss 1.21159  L_gap 1.19797  L_bnd 0.13624  |  MAE_val(macro) 0.72953  lr 1.00e-03  75.2s
+  ep   2  loss 1.10651  L_gap 1.10105  L_bnd 0.05466  |  MAE_val(macro) 0.64640  lr 1.00e-03  105.9s
+  ep   3  loss 1.02112  L_gap 1.01649  L_bnd 0.04629  |  MAE_val(macro) 0.62572  lr 1.00e-03  114.1s
+  ep   4  loss 1.02147  L_gap 1.01708  L_bnd 0.04385  |  MAE_val(macro) 0.61859  lr 1.00e-03  20.9s
+  ep   5  loss 0.97910  L_gap 0.97521  L_bnd 0.03887  |  MAE_val(macro) 0.60580  lr 1.00e-03  20.6s
+  ep   6  loss 0.96748  L_gap 0.96381  L_bnd 0.03667  |  MAE_val(macro) 0.60940  lr 1.00e-03  46.8s
+  ep   7  loss 0.95506  L_gap 0.95182  L_bnd 0.03245  |  MAE_val(macro) 0.59284  lr 1.00e-03  20.8s
+  ep   8  loss 0.91912  L_gap 0.91604  L_bnd 0.03080  |  MAE_val(macro) 0.59612  lr 1.00e-03  20.8s
+  ep   9  loss 0.98708  L_gap 0.98401  L_bnd 0.03071  |  MAE_val(macro) 0.59890  lr 1.00e-03  20.9s
+  ep  10  loss 0.96641  L_gap 0.96339  L_bnd 0.03018  |  MAE_val(macro) 0.60739  lr 1.00e-03  39.2s
+  ep  11  loss 0.96807  L_gap 0.96519  L_bnd 0.02881  |  MAE_val(macro) 0.58645  lr 1.00e-03  80.0s
+  ep  12  loss 0.93726  L_gap 0.93450  L_bnd 0.02758  |  MAE_val(macro) 0.59290  lr 1.00e-03  78.9s
+  ep  13  loss 0.92054  L_gap 0.91774  L_bnd 0.02796  |  MAE_val(macro) 0.58315  lr 1.00e-03  79.2s
+  ep  14  loss 0.94580  L_gap 0.94323  L_bnd 0.02562  |  MAE_val(macro) 0.57624  lr 1.00e-03  80.3s
+  ep  15  loss 0.98562  L_gap 0.98303  L_bnd 0.02588  |  MAE_val(macro) 0.57831  lr 1.00e-03  78.6s
+  ep  16  loss 0.95973  L_gap 0.95721  L_bnd 0.02526  |  MAE_val(macro) 0.57706  lr 1.00e-03  78.6s
+  ep  17  loss 0.92480  L_gap 0.92243  L_bnd 0.02369  |  MAE_val(macro) 0.57918  lr 1.00e-03  78.7s
+  ep  18  loss 0.92233  L_gap 0.91985  L_bnd 0.02482  |  MAE_val(macro) 0.57575  lr 1.00e-03  79.0s
+  ep  19  loss 0.96700  L_gap 0.96461  L_bnd 0.02393  |  MAE_val(macro) 0.57298  lr 1.00e-03  80.1s
+  ep  20  loss 0.87848  L_gap 0.87620  L_bnd 0.02280  |  MAE_val(macro) 0.57442  lr 1.00e-03  80.0s
+  ep  21  loss 0.93280  L_gap 0.93066  L_bnd 0.02142  |  MAE_val(macro) 0.57333  lr 1.00e-03  79.9s
