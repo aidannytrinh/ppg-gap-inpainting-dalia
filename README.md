@@ -147,6 +147,12 @@ Trọng số đã huấn luyện có sẵn trong `G6/weights/` (mô hình đã c
 - Tệp dự đoán theo từng cửa sổ `results/*_theo_cuaso.csv` và `results/*_dudoan_gap.npz` (khoảng 230 MB), do `evaluate.py` và `experiments.py e1` sinh ra. `figures.py`, `xuat_bang.py` và `phan_tich_lech_hr.py` cần các tệp này, nên hãy chạy bước E1 trước.
 - Thư mục `results/truoc_bo_sung_e2/` (kết quả trước khi bổ sung E2, xem ghi chú bên dưới).
 
+## Ghi chú về cách tạo kết quả và notebook
+
+- **Cách tạo kết quả:** các kết quả gốc được tạo bằng cách chạy trực tiếp các script `.py` theo thứ tự ở mục "Chạy lại toàn bộ theo đúng giao thức". Ba lượt khảo sát λ = 0; 0,1; 0,5 chạy trên Colab (GPU Tesla T4), các lượt còn lại chạy trên CPU máy cá nhân. Thiết bị và phiên bản thư viện được ghi trong từng tệp `results/<mã lượt>.json`. Các tệp trong `results/`, `logs/` và `figs/` chính là kết quả gốc đó.
+- **Notebook:** `G6/G6_Colab.ipynb` chỉ gọi lần lượt các script theo thứ tự chính bằng lệnh `!python ...` để tiện chạy trên Colab. Notebook **không chứa output** và chưa gồm các bước bổ sung (khám phá dữ liệu, khảo sát vị trí, phân tích lệch HR, cải tiến độ trễ). Danh sách lệnh đầy đủ nằm ở README này. Notebook không phải nơi lưu kết quả.
+- **Tên thí nghiệm:** báo cáo gọi các thí nghiệm bằng tên nội dung, còn đề cương và tên tệp dùng mã. Đối chiếu: E4 là khảo sát λ, E2 là bóc tách, E1 là so sánh trên test, E3 là phân tích theo hoạt động, E5 là kiểm định chéo.
+
 ## Thời gian chạy tham khảo
 
 Trên CPU Intel Core i7-12700H, một epoch mất khoảng 20 đến 30 giây khi máy rảnh. Mỗi lượt dừng sớm sau khoảng 70 đến 100 epoch, tức khoảng 25 đến 50 phút. Trên Colab Tesla T4 khoảng 49 đến 52 giây mỗi epoch. Toàn bộ thí nghiệm theo đề cương gồm 32 lượt huấn luyện: E4 có 4 lượt, E2 có 8 lượt, E5 có 20 lượt. Phần cải tiến có thêm 1 lượt là biến thể độ trễ thấp `caitien_amax384_lam0.5`.
